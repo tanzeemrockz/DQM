@@ -1,0 +1,226 @@
+{
+  "brain_id": "default_core_v1.0.4",
+  "version": "1.0.4",
+  "author": "CyberDev",
+  "routes": {
+    "what": {
+      "is": {
+        "dqm": "Deterministic Query Model—sub-millisecond, zero-hallucination tree lookup engine.",
+        "opencore": "Modern modular bootloader that injects kexts and patches ACPI tables to run macOS on PC hardware.",
+        "kext": "Kernel Extension—macOS driver files injected by OpenCore into the kernel space.",
+        "lilu": "The core open-source kext patcher required as a prerequisite by almost all modern macOS kexts.",
+        "virtualsmc": "Advanced SMC emulator for Hackintosh systems replacing the legacy FakeSMC.",
+        "whatevergreen": "Lilu plugin providing comprehensive patches for AMD, Intel, and Nvidia GPUs on macOS.",
+        "applealc": "Lilu plugin that enables native macOS AppleHDA audio without modifying system files.",
+        "acpi": "Advanced Configuration and Power Interface—hardware abstraction tables read by operating systems at boot.",
+        "ssdt": "Secondary System Description Table—used in OpenCore to hotpatch hardware definitions into ACPI.",
+        "dsdt": "Differentiated System Description Table—the main firmware table describing PC motherboards.",
+        "nvram": "Non-Volatile RAM—holds boot arguments like -v, alcid, and SIP configs across hardware restarts.",
+        "sip": "System Integrity Protection—macOS security mechanism restricting root actions on system files.",
+        "propertree": "Cross-platform GUI plist editor built in Python specifically optimized for OpenCore config.plist files.",
+        "drs": "Drag Reduction System—opens the rear wing flap in DRS zones to reduce aerodynamic drag.",
+        "ers": "Energy Recovery System—deploys battery energy recovered from kinetic braking and turbo heat.",
+        "mguk": "Motor Generator Unit-Kinetic—converts mechanical energy from braking into electrical energy.",
+        "mguh": "Motor Generator Unit-Heat—harnesses exhaust heat energy from the turbocharger shaft.",
+        "porpoising": "High-speed aerodynamic bouncing occurring when ground-effect underbody floors repeatedly stall.",
+        "telemetry": "Live sensor feeds transmitting throttle, brake, steering angle, and tire thermal data to pit lane.",
+        "apex": "The optimal innermost point of a turn on a racing circuit maximizing speed and momentum.",
+        "undervolting": "Lowering core voltage supplied to a processor to decrease operating temps without losing clock speed.",
+        "delidding": "Removing the integrated heat spreader (IHS) of a CPU to apply direct die liquid metal cooling.",
+        "xmp": "Extreme Memory Profile—Intel standard for factory pre-configured high-speed RAM overclocks.",
+        "expo": "Extended Profiles for Overclocking—AMD standard for one-click DDR5 memory overclock profiles.",
+        "mqb": "Modularer Querbaukasten—the VW Group transverse modular architecture used across Golfs, TTs, and Octavias.",
+        "ea888": "The legendary 2.0L TSI/TFSI turbocharged iron-block inline-4 engine powering hot VW/Audi models.",
+        "dsg": "Direct-Shift Gearbox—dual-clutch automated transmission providing seamless lightning-fast upshifts.",
+        "haldex": "Electro-hydraulic all-wheel drive system routing power to the rear wheels on transverse VW Group cars.",
+        "dom": "Document Object Model—the structural node tree representation of HTML rendered by web browsers.",
+        "cors": "Cross-Origin Resource Sharing—browser security policy preventing cross-site HTTP requests.",
+        "jwt": "JSON Web Token—compact, URL-safe means of representing claims securely between two parties.",
+        "websocket": "Full-duplex persistent communication channel established over a single TCP connection."
+      },
+      "the": {
+        "fastest": {
+          "f1": {
+            "pitstop": "1.80 seconds by McLaren on Lando Norris's car at the 2023 Qatar Grand Prix."
+          }
+        },
+        "difference": {
+          "between": {
+            "ram": {
+              "and": {
+                "rom": "RAM is fast, volatile read-write working memory; ROM is non-volatile permanent boot data."
+              }
+            },
+            "tcp": {
+              "and": {
+                "udp": "TCP guarantees ordered, error-checked packet delivery; UDP streams raw packets for lowest latency."
+              }
+            }
+          }
+        }
+      }
+    },
+    "who": {
+      "is": {
+        "cyberdev": "Tanzeem, lead builder of DQM and owner of cyberslayercorpz.dev.",
+        "kimi": "Andrea Kimi Antonelli (a.k. ant), Mercedes F1 prodigy taking over the Silver Arrows.",
+        "antonelli": "Andrea Kimi Antonelli—Mercedes AMG Petronas F1 driver running car #12.",
+        "max": "Max Verstappen, 4-time F1 World Champion driving car #3 for Red Bull Racing.",
+        "toto": "Toto Wolff, Team Principal and CEO of the Mercedes-AMG Petronas F1 Team.",
+        "george": "George Russell, Grand Prix winner piloting for Mercedes-AMG F1 in car #63.",
+        "lewis": "Sir Lewis Hamilton, 7-time F1 World Champion driving for Scuderia Ferrari in car #44.",
+        "charles": "Charles Leclerc, Scuderia Ferrari driver running car #16 with ruthless qualifying pace.",
+        "lando": "Lando Norris, reigning F1 World Champion piloting car #1 for McLaren.",
+        "oscar": "Oscar Piastri, calm and clinical McLaren F1 driver running car #81.",
+        "hadjar": "Isack Hadjar, fast-rising French-Algerian Red Bull driver running car #6.",
+        "fernando": "Fernando Alonso, two-time World Champion and endurance racing master.",
+        "adrian": {
+          "newey": "Aerodynamic mastermind behind historic championship-winning F1 cars."
+        },
+        "linus": {
+          "torvalds": "Creator of Linux and Git, and guardian of the Linux kernel."
+        }
+      },
+      "won": {
+        "f1": {
+          "2020": "Sir Lewis Hamilton, claiming his record-equaling 7th title in the Mercedes W11.",
+          "2021": "Max Verstappen after a wild final lap battle in Abu Dhabi.",
+          "2022": "Max Verstappen dominating the ground-effect regulatory reset.",
+          "2023": "Max Verstappen taking 19 wins in a single season with the RB19.",
+          "2024": "Max Verstappen sealing his 4th Drivers' World Championship.",
+          "2025": "Lando Norris, clinching his maiden Drivers' World Championship with McLaren."
+        }
+      },
+      "drives": {
+        "for": {
+          "mercedes": "George Russell (#63) and Andrea Kimi Antonelli (#12).",
+          "redbull": "Max Verstappen (#3) and Isack Hadjar (#6).",
+          "ferrari": "Charles Leclerc (#16) and Lewis Hamilton (#44).",
+          "mclaren": "Lando Norris (#1) and Oscar Piastri (#81)."
+        }
+      }
+    },
+    "which": {
+      "brands": {
+        "belong": {
+          "to": {
+            "vw": "Volkswagen, Audi, Porsche, Lamborghini, Bentley, Škoda, SEAT/Cupra, and Ducati."
+          }
+        }
+      },
+      "kext": {
+        "is": {
+          "for": {
+            "audio": "AppleALC.kext paired with the correct alcid boot-arg in NVRAM.",
+            "ethernet": "IntelMausi for Intel NICs or RealtekRTL8111 for Realtek chips.",
+            "smc": "VirtualSMC.kext along with SMCProcessor and SMCSuperIO plugins.",
+            "graphics": "WhateverGreen.kext handling framebuffers, connectors, and backlight fixes."
+          }
+        }
+      },
+      "engine": {
+        "is": {
+          "in": {
+            "the": {
+              "golf": {
+                "r": "The turbocharged 2.0-liter EA888 Gen 4 paired with 4Motion all-wheel drive.",
+                "gti": "The front-wheel drive EA888 2.0-liter TSI with VAQ electronic limited-slip differential."
+              },
+              "rs3": "The legendary 2.5-liter TFSI inline-5 with its distinctive 1-2-4-5-3 firing order."
+            }
+          }
+        }
+      }
+    },
+    "how": {
+      "to": {
+        "build": {
+          "pc": "Seat CPU and RAM on motherboard first, mount in chassis, install cooler, wire PSU, drop GPU in last.",
+          "efi": "Gather OpenCore release, map USB ports, generate SSDTs with SSDTTime, and clean-snapshot config.plist with ProperTree."
+        },
+        "map": {
+          "usb": "Use USBToolBox on Windows or USBMap on macOS to discover ports and stay under the 15-port limit."
+        },
+        "reset": {
+          "nvram": "Press spacebar at the OpenCore boot picker and select Reset NVRAM to purge cached variables."
+        },
+        "fix": {
+          "kernel": {
+            "panic": "Boot with -v (verbose mode), read the crash log, check kext order, and verify ACPI drops."
+          },
+          "thermal": {
+            "throttling": "Repaste CPU/GPU with high-viscosity thermal paste, undervolt, and optimize fan curves."
+          }
+        },
+        "tune": {
+          "ea888": "Upgrade to an aftermarket downpipe, high-flow intercooler, intake, and flash a custom Stage 2 ECU/TCU map."
+        },
+        "reduce": {
+          "lap": {
+            "time": "Brake straight, trail-brake into the apex, square off the corner, and roll into throttle early."
+          }
+        },
+        "make": {
+          "chai": "Boil crushed ginger and cardamom in water, toss in CTC tea leaves, pour milk, and simmer until golden brown.",
+          "maggi": "Boil 1.5 cups water, drop the noodle brick and tastemaker, simmer 2 minutes on high flame."
+        }
+      },
+      "does": {
+        "dsg": {
+          "work": "Two separate clutches manage odd and even gears respectively, pre-engaging the next gear before the shift."
+        },
+        "drs": {
+          "work": "A hydraulic actuator lifts the flap of the rear wing, reducing drag area and yielding 10-12 km/h."
+        },
+        "opencore": {
+          "work": "Loads before the OS kernel, intercepts boot calls in UEFI, injects ACPI patches and kexts on the fly."
+        }
+      }
+    },
+    "why": {
+      "is": {
+        "mercedes": {
+          "fast": "Unreal engine development at Brixworth coupled with world-class chassis engineering at Brackley."
+        },
+        "red": {
+          "bull": {
+            "fast": "Extreme anti-dive suspension geometry, clean packaging, and relentless downforce."
+          }
+        },
+        "dqm": {
+          "fast": "O(k) trie traversal directly through dictionary memory lookups with zero matrix math or neural overhead."
+        },
+        "python": {
+          "popular": "Readable syntax, standard library batteries included, and an unbeatable ecosystem."
+        }
+      }
+    },
+    "where": {
+      "is": {
+        "monza": "Autodromo Nazionale Monza, located north of Milan, Italy—the historic Temple of Speed.",
+        "spa": "Circuit de Spa-Francorchamps, located in the rolling Ardennes forest of Belgium.",
+        "silverstone": "Silverstone Circuit in Northamptonshire, England—birthplace of the first F1 World Championship race."
+      }
+    },
+    "box": {
+      "box": "Box, box! Confirming pit stop for soft tyres."
+    },
+    "radio": {
+      "check": "Loud and clear. Keep your head down, mode push."
+    },
+    "mode": {
+      "push": "Deploying battery overhead. Push lap confirmed."
+    },
+    "safety": {
+      "car": "Safety car deployed. Delta positive, conserve tire temps."
+    },
+    "yellow": {
+      "flag": "Sector yellow. Lift off the throttle, no overtaking."
+    },
+    "status": "All tree routes loaded in RAM. Latency sub-millisecond. DQM engine ready.",
+    "help": "Query categories available: 'what is', 'who is', 'who won', 'which brands', 'how to', 'why is', or radio calls like 'box box'.",
+    "hi": "System active. Ready to query F1, Hackintosh EFI, or hardware specs.",
+    "hello": "Yo! DQM engine running. What are we looking up?",
+    "ping": "pong!"
+  }
+}
