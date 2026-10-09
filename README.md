@@ -1,0 +1,2 @@
+# DQM
+Deterministic Query Model.
