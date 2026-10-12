@@ -1,6 +1,6 @@
 {
-  "brain_id": "default_core_v1.0.5",
-  "version": "1.0.5",
+  "brain_id": "default_core_v2.0.0",
+  "version": "2.0.0",
   "author": "Mohamed Tanzeem I (CyberDev)",
   "routes": {
     "what": {
@@ -20,7 +20,7 @@
         ],
         "cpu": [
           "Central Processing Unit: the main general-purpose processor that executes program instructions and calculations.",
-          "The CPU is a computer’s main processor; on desktops it may sit in a motherboard socket, while many laptops use soldered processors."
+          "The CPU is a computer's main processor; on desktops it may sit in a motherboard socket, while many laptops use soldered processors."
         ],
         "gpu": [
           "Graphics Processing Unit: a processor specialized for graphics and highly parallel workloads such as rendering and some scientific computations.",
@@ -52,21 +52,21 @@
         ],
         "drs": [
           "Drag Reduction System (DRS) was a Formula 1 system that let a driver adjust a rear-wing flap in designated zones under specified conditions to reduce drag.",
-          "DRS was used through the 2025 season. In 2026, F1 moved to active front- and rear-wing aerodynamics and a separate Overtake Mode; these are not simply the old DRS under a new name."
+          "DRS was used through the 2025 season. In 2026, F1 moved to active front- and rear-wing aerodynamics and a separate Overtake Mode."
         ],
         "ers": [
           "Energy Recovery System (ERS): a hybrid system that recovers energy, stores it, and makes it available for later use.",
           "In Formula 1, the rules for recovering and deploying energy change by season. The 2026 power units use a revised electrical system with much greater electrical power and no MGU-H."
         ],
-        "mguk": "Motor Generator Unit–Kinetic (MGU-K): an electric machine that converts some of a car’s kinetic energy into electrical energy during deceleration and can use stored electrical energy to help drive the car, within the applicable rules.",
-        "mguh": "Motor Generator Unit–Heat (MGU-H): the turbocharger-linked energy-recovery component used in Formula 1’s previous hybrid power-unit rules. It recovered energy associated with exhaust heat and turbocharger operation, and was removed for 2026.",
+        "mguk": "Motor Generator Unit–Kinetic (MGU-K): an electric machine that converts some of a car's kinetic energy into electrical energy during deceleration and can use stored electrical energy to help drive the car, within the applicable rules.",
+        "mguh": "Motor Generator Unit–Heat (MGU-H): the turbocharger-linked energy-recovery component used in Formula 1's previous hybrid power-unit rules. It was removed for 2026.",
         "porpoising": [
           "When a race car bounces up and down at high speeds because underfloor air repeatedly stalls and regains suction.",
           "Severe bouncing caused by rapid changes in air pressure under ground-effect race cars."
         ],
         "slipstream": [
           "A slipstream is the region of disturbed, often lower-pressure air behind a moving vehicle that can reduce drag for a following vehicle.",
-          "Following in another car’s slipstream can increase straight-line speed, although turbulent air can reduce aerodynamic performance in corners."
+          "Following in another car's slipstream can increase straight-line speed, although turbulent air can reduce aerodynamic performance in corners."
         ],
         "apex": [
           "In racing, the apex is the point on the inside of a corner that a chosen racing line passes closest to.",
@@ -74,27 +74,27 @@
         ],
         "telemetry": [
           "Telemetry is the collection and transmission of measurements from remote sensors or equipment to a monitoring system.",
-          "In motorsport, telemetry may include data such as speed, throttle, brake pressure, suspension movement, and temperatures; availability depends on the system and rules."
+          "In motorsport, telemetry may include data such as speed, throttle, brake pressure, suspension movement, and temperatures."
         ],
         "undervolting": [
           "Undervolting reduces the voltage supplied to a processor or graphics chip in an attempt to lower power use and heat.",
-          "Results vary by chip and workload; too little voltage can cause instability, and lower voltage does not guarantee unchanged performance."
+          "Results vary by chip and workload; too little voltage can cause instability."
         ],
         "overclocking": [
           "Overclocking means running a CPU, GPU, or other component above its rated operating frequency, which can increase performance but may also increase heat and instability.",
           "Extra voltage is sometimes used for stability but is not always necessary; results and risks depend on the hardware and settings."
         ],
         "delidding": [
-          "Delidding is removing a processor’s integrated heat spreader to access the thermal interface between it and the silicon die.",
-          "It is sometimes done to replace the internal thermal interface material, but it can permanently damage a CPU and is not a beginner cooling upgrade."
+          "Delidding is removing a processor's integrated heat spreader to access the thermal interface between it and the silicon die.",
+          "It is sometimes done to replace the internal thermal interface material, but it can permanently damage a CPU."
         ],
         "mqb": [
           "Modularer Querbaukasten: The shared platform Volkswagen uses to build cars like the Golf, Audi A3, and Skoda Octavia.",
           "A modular vehicle blueprint shared across many front-wheel-drive Volkswagen Group cars."
         ],
         "ea888": [
-          "EA888 is a family of Volkswagen Group turbocharged, direct-injection petrol engines, commonly including 1.8-litre and 2.0-litre variants used in various Volkswagen, Audi, Škoda, and SEAT/CUPRA models.",
-          "Power, hardware, and tuning potential differ by generation and model; claims about large gains from simple modifications are not universal."
+          "EA888 is a family of Volkswagen Group turbocharged, direct-injection petrol engines, commonly including 1.8-litre and 2.0-litre variants.",
+          "Power, hardware, and tuning potential differ by generation and model."
         ],
         "dsg": [
           "Direct-Shift Gearbox (DSG): a dual-clutch automated transmission used in some Volkswagen Group vehicles.",
@@ -102,7 +102,7 @@
         ],
         "haldex": [
           "Haldex is a name commonly used for an electronically controlled multi-plate clutch system found in some Volkswagen Group all-wheel-drive vehicles.",
-          "Depending on generation and vehicle, the system can vary how much torque reaches the rear axle; it is not accurate to say it only sends power rearward after the front wheels lose traction."
+          "Depending on generation and vehicle, the system can vary how much torque reaches the rear axle."
         ],
         "archipelago": [
           "A large group, cluster, or chain of islands scattered across an ocean or sea.",
@@ -110,22 +110,22 @@
         ],
         "equator": [
           "The equator is the imaginary line at 0° latitude that divides Earth into the Northern and Southern Hemispheres.",
-          "Day and night are close to 12 hours each near the equator through the year, though exact daylight duration varies slightly with the date and how sunrise and sunset are defined."
+          "Day and night are close to 12 hours each near the equator through the year."
         ],
         "fjord": [
           "A fjord is a long, deep, narrow sea inlet with steep sides, formed when a glacially carved valley is flooded by the sea.",
-          "Fjords are especially common on formerly glaciated coasts such as Norway’s, but their exact shape and surroundings vary."
+          "Fjords are especially common on formerly glaciated coasts such as Norway's."
         ],
         "tundra": [
           "Tundra is a cold, largely treeless biome in which low temperatures and short growing seasons restrict tree growth.",
-          "Permafrost is common in Arctic tundra, but it is not present in every tundra environment; vegetation can include mosses, lichens, grasses, and low shrubs."
+          "Permafrost is common in Arctic tundra; vegetation can include mosses, lichens, grasses, and low shrubs."
         ],
         "taiga": [
           "The taiga, or boreal forest, is a broad subarctic biome dominated by coniferous trees across parts of Canada, Alaska, Scandinavia, and Russia.",
           "Many taiga trees are evergreen, though larches are conifers that shed their needles each year."
         ],
         "pangea": [
-          "Pangaea (also spelled Pangea) was a supercontinent that brought most of Earth’s landmasses together during the late Paleozoic and early Mesozoic eras.",
+          "Pangaea (also spelled Pangea) was a supercontinent that brought most of Earth's landmasses together during the late Paleozoic and early Mesozoic eras.",
           "It broke apart over geological time as tectonic plates moved, forming the continents and ocean basins seen today."
         ],
         "strait": [
@@ -146,7 +146,7 @@
         ],
         "atoll": [
           "An atoll is a ring-shaped coral reef, often enclosing a lagoon.",
-          "Many atolls develop around volcanic islands as reefs grow and the island subsides or erodes, but the details of formation vary."
+          "Many atolls develop around volcanic islands as reefs grow and the island subsides or erodes."
         ],
         "glacier": [
           "A glacier is a persistent body of land ice formed from accumulated, compacted snow that deforms and flows under its own weight.",
@@ -158,11 +158,11 @@
         ],
         "canyon": [
           "A canyon is a deep valley with steep sides, commonly carved by a river over long periods.",
-          "Canyons can also be shaped by uplift, erosion, glaciers, and other geological processes; their formation is not always the same."
+          "Canyons can also be shaped by uplift, erosion, glaciers, and other geological processes."
         ],
         "oasis": [
           "An oasis is a place in an arid region where water is available, allowing vegetation and sometimes settlement to exist.",
-          "The water may come from springs, groundwater, wells, or other sources; an oasis is not necessarily surrounded only by sand."
+          "The water may come from springs, groundwater, wells, or other sources."
         ],
         "monsoon": [
           "A monsoon is a seasonal shift in winds that often brings a pronounced wet season and dry season to affected regions.",
@@ -170,7 +170,7 @@
         ],
         "gravity": [
           "Gravity is the interaction that influences the motion of bodies with mass and energy. In Newtonian physics it is modelled as attraction between masses; general relativity describes gravity through spacetime curvature.",
-          "Near Earth’s surface, gravity gives objects weight and helps keep the Moon and artificial satellites in orbit."
+          "Near Earth's surface, gravity gives objects weight and helps keep the Moon and artificial satellites in orbit."
         ],
         "friction": [
           "Friction is a force that opposes relative motion, or the tendency for relative motion, between surfaces in contact.",
@@ -178,7 +178,7 @@
         ],
         "inertia": [
           "Inertia is the tendency of an object to maintain its state of rest or uniform straight-line motion unless a net external force acts on it.",
-          "An object’s mass is a measure of its inertia."
+          "An object's mass is a measure of its inertia."
         ],
         "photosynthesis": [
           "Photosynthesis is the process by which plants, algae, and some bacteria use light energy to make energy-rich compounds from carbon dioxide and water; oxygen is released in oxygenic photosynthesis.",
@@ -186,7 +186,7 @@
         ],
         "dna": [
           "Deoxyribonucleic acid (DNA) is a molecule that stores hereditary information in organisms and many viruses.",
-          "DNA contains genes and regulatory sequences, but not every part is a direct instruction for making a protein, and organisms also depend on cellular processes and environmental conditions."
+          "DNA contains genes and regulatory sequences; organisms also depend on cellular processes and environmental conditions."
         ],
         "atom": [
           "An atom has a nucleus containing protons and, in most cases, neutrons, with electrons occupying the surrounding quantum states.",
@@ -198,43 +198,532 @@
         ],
         "atmosphere": [
           "An atmosphere is a layer of gas surrounding a celestial body, held there by gravity.",
-          "Earth’s atmosphere contains mostly nitrogen and oxygen; different layers and processes affect temperature and the amount of radiation reaching the surface."
+          "Earth's atmosphere contains mostly nitrogen and oxygen; different layers and processes affect temperature and the amount of radiation reaching the surface."
         ],
         "eclipse": [
           "An eclipse occurs when one celestial body moves into the shadow of another or blocks it from view.",
-          "A solar eclipse occurs when the Moon passes between Earth and the Sun; a lunar eclipse occurs when the Moon moves into Earth’s shadow."
+          "A solar eclipse occurs when the Moon passes between Earth and the Sun; a lunar eclipse occurs when the Moon moves into Earth's shadow."
         ],
-        "black": {
-          "hole": [
-            "A black hole is a region of spacetime whose event horizon marks the boundary beyond which light cannot escape to a distant observer.",
-            "Black holes form through several possible processes; their interiors are not directly observable, and descriptions of a singularity depend on theories that are not yet complete."
+        "asteroid": [
+          "An asteroid is a small rocky or metallic body orbiting the Sun. Many known asteroids are in the main asteroid belt between Mars and Jupiter.",
+          "Some asteroids have orbits that bring them closer to Earth; these are tracked by planetary defense programs."
+        ],
+        "comet": [
+          "A comet is a small icy body that develops a glowing tail when heated by the Sun.",
+          "Comets originate from the outer solar system and can have highly elongated orbits."
+        ],
+        "aurora": [
+          "A natural light display in polar skies created when solar wind particles collide with atmospheric gases.",
+          "The aurora borealis appears near the north pole; the aurora australis near the south pole."
+        ],
+        "tsunami": [
+          "A tsunami is a series of long-wavelength sea waves caused by sudden displacement of a large volume of water, often by an undersea earthquake, landslide, or volcanic activity.",
+          "Tsunamis can travel across entire ocean basins and may be barely noticeable in deep water but grow dangerous near coastlines."
+        ],
+        "linux": [
+          "Linux is an open-source operating system kernel created by Linus Torvalds in 1991. It powers servers, desktops, Android phones, and embedded devices.",
+          "Linux distributions like Ubuntu, Fedora, and Arch bundle the kernel with system tools, package managers, and desktop environments."
+        ],
+        "windows": [
+          "Microsoft Windows is a family of operating systems that dominates the desktop PC market.",
+          "Windows provides a graphical interface, supports a vast library of software, and powers most consumer and enterprise PCs."
+        ],
+        "macos": [
+          "macOS is Apple's desktop operating system, built on a Unix-based foundation and exclusive to Mac hardware.",
+          "macOS is known for its integration with the Apple ecosystem, build quality, and developer tooling."
+        ],
+        "python": [
+          "Python is a high-level, interpreted programming language known for its readable syntax and versatility.",
+          "Python is widely used in web development, data science, machine learning, automation, and scripting."
+        ],
+        "javascript": [
+          "JavaScript is a high-level programming language that runs in web browsers and on servers via Node.js.",
+          "JavaScript is the core language of the web, enabling interactive websites, server-side applications, and mobile apps."
+        ],
+        "html": [
+          "HyperText Markup Language (HTML) is the standard markup language for creating web pages.",
+          "HTML defines the structure of a web page using elements like headings, paragraphs, links, and images."
+        ],
+        "css": [
+          "Cascading Style Sheets (CSS) is a stylesheet language used to describe the visual presentation of HTML documents.",
+          "CSS controls layout, colors, fonts, spacing, and responsive design for web pages."
+        ],
+        "api": [
+          "An Application Programming Interface (API) is a set of rules that lets different software components communicate.",
+          "APIs allow applications to request data or services from other systems without knowing their internal workings."
+        ],
+        "database": [
+          "A database is an organized collection of data stored and accessed electronically.",
+          "Common types include relational databases (SQL) and document databases (NoSQL)."
+        ],
+        "server": [
+          "A server is a computer or program that provides services, data, or resources to other computers (clients) over a network.",
+          "Servers can host websites, store files, run applications, manage email, and more."
+        ],
+        "cloud": [
+          "Cloud computing delivers computing resources — servers, storage, databases, networking — over the internet on demand.",
+          "Major cloud providers include AWS, Google Cloud, and Microsoft Azure."
+        ],
+        "docker": [
+          "Docker is a platform that packages applications into lightweight, portable containers that run consistently across environments.",
+          "Containers share the host OS kernel but isolate applications, making deployment faster and more reproducible than traditional virtual machines."
+        ],
+        "wifi": [
+          "Wi-Fi is a wireless networking technology that lets devices connect to a local area network and the internet using radio waves.",
+          "Wi-Fi standards like Wi-Fi 6 and Wi-Fi 7 improve speed, capacity, and latency over older versions."
+        ],
+        "bluetooth": [
+          "Bluetooth is a short-range wireless technology for exchanging data between devices like headphones, keyboards, and phones.",
+          "Bluetooth Low Energy (BLE) is a variant designed for low power consumption in IoT devices and wearables."
+        ],
+        "usb": [
+          "Universal Serial Bus (USB) is a standard for connecting peripherals to computers, providing both data transfer and power delivery.",
+          "USB-C is the latest connector type, supporting USB4, Thunderbolt, and up to 240W power delivery."
+        ],
+        "http": [
+          "HyperText Transfer Protocol (HTTP) is the foundation of data communication on the web.",
+          "HTTPS adds encryption via TLS to secure data in transit between browsers and servers."
+        ],
+        "dns": [
+          "Domain Name System (DNS) translates human-readable domain names like google.com into IP addresses that computers use to route traffic.",
+          "DNS acts as the internet's phone book, making it possible to use names instead of numbers to visit websites."
+        ],
+        "ai": [
+          "Artificial Intelligence (AI) is the field of computer science focused on building systems that can perform tasks typically requiring human intelligence.",
+          "AI encompasses machine learning, natural language processing, computer vision, robotics, and more."
+        ],
+        "machine": {
+          "learning": [
+            "Machine Learning (ML) is a subset of AI where systems learn patterns from data rather than being explicitly programmed for every rule.",
+            "ML is used in recommendation systems, image recognition, language translation, fraud detection, and many other applications."
           ]
         },
-        "light": {
-          "year": [
-            "The distance light travels in one Earth year, roughly 9.46 trillion kilometers.",
-            "A unit of astronomical distance measuring how far a beam of light travels in a single year."
+        "blockchain": [
+          "A blockchain is a distributed, append-only ledger that records transactions across a network of computers using cryptographic hashing.",
+          "Blockchains are the underlying technology behind cryptocurrencies like Bitcoin and Ethereum, but are also used in supply chain and identity systems."
+        ],
+        "cryptocurrency": [
+          "Cryptocurrency is a digital or virtual currency secured by cryptography and typically built on blockchain technology.",
+          "Bitcoin was the first cryptocurrency; thousands now exist, each with different purposes and mechanisms."
+        ],
+        "evolution": [
+          "Evolution is the change in heritable characteristics of biological populations over successive generations, driven by natural selection, genetic drift, mutation, and gene flow.",
+          "Darwin and Wallace independently proposed natural selection as a mechanism of evolution in 1858."
+        ],
+        "cell": [
+          "A cell is the basic structural and functional unit of all living organisms.",
+          "Cells come in two main types: prokaryotic (no nucleus, like bacteria) and eukaryotic (with a nucleus, like animal and plant cells)."
+        ],
+        "virus": [
+          "A virus is a microscopic infectious agent that replicates only inside the living cells of a host organism.",
+          "Viruses consist of genetic material (DNA or RNA) surrounded by a protein coat; they are not considered fully alive by most definitions."
+        ],
+        "bacteria": [
+          "Bacteria are single-celled microorganisms that lack a nucleus. They are among the most abundant life forms on Earth.",
+          "Most bacteria are harmless or beneficial; only a small fraction cause disease."
+        ],
+        "vaccine": [
+          "A vaccine is a biological preparation that trains the immune system to recognize and fight specific pathogens without causing the disease.",
+          "Vaccines have drastically reduced the impact of diseases like smallpox, polio, measles, and COVID-19."
+        ],
+        "periodic": {
+          "table": [
+            "The periodic table organizes chemical elements by atomic number, electron configuration, and recurring chemical properties.",
+            "Elements in the same column (group) share similar chemical behaviors; the table currently contains 118 confirmed elements."
           ]
         },
-        "asteroid": "An asteroid is a small rocky or metallic body orbiting the Sun. Many known asteroids are in the main asteroid belt between Mars and Jupiter, but others occupy different orbits.",
-        "comet": "A cosmic snowball of frozen gases, rock, and dust that develops a glowing tail when near the Sun.",
-        "aurora": "A natural light show in polar skies created when solar wind particles collide with atmospheric gases.",
-        "tsunami": "A tsunami is a series of long-wavelength sea waves caused by sudden displacement of a large volume of water, often by an undersea earthquake, landslide, or volcanic activity."
+        "speed": {
+          "of": {
+            "light": [
+              "The speed of light in a vacuum is approximately 299,792,458 metres per second (about 300,000 km/s).",
+              "Nothing with mass can reach or exceed the speed of light according to Einstein's special relativity."
+            ],
+            "sound": [
+              "The speed of sound in dry air at 20°C is approximately 343 metres per second (about 1,235 km/h).",
+              "Sound travels faster in water and even faster in solids like steel."
+            ]
+          }
+        },
+        "wavelength": [
+          "Wavelength is the distance between consecutive peaks (or troughs) of a wave, such as a light wave or sound wave.",
+          "Shorter wavelengths correspond to higher frequencies and, for light, higher energy."
+        ],
+        "the": {
+          "capital": {
+            "of": {
+              "france": "Paris.",
+              "japan": "Tokyo.",
+              "germany": "Berlin.",
+              "italy": "Rome.",
+              "canada": "Ottawa.",
+              "australia": "Canberra.",
+              "india": "New Delhi.",
+              "brazil": "Brasília.",
+              "egypt": "Cairo.",
+              "china": "Beijing.",
+              "spain": "Madrid.",
+              "mexico": "Mexico City.",
+              "norway": "Oslo.",
+              "argentina": "Buenos Aires.",
+              "turkey": "Ankara, Türkiye (Turkey).",
+              "sweden": "Stockholm.",
+              "finland": "Helsinki.",
+              "denmark": "Copenhagen.",
+              "portugal": "Lisbon.",
+              "greece": "Athens.",
+              "poland": "Warsaw.",
+              "netherlands": "Amsterdam is the constitutional capital of the Netherlands; the Dutch government and parliament are seated in The Hague.",
+              "belgium": "Brussels.",
+              "switzerland": "Bern.",
+              "austria": "Vienna.",
+              "indonesia": "Jakarta remains Indonesia's capital as the transfer to Nusantara is underway; the government targets 2028 for the move.",
+              "malaysia": "Kuala Lumpur is Malaysia's national capital; Putrajaya is the federal administrative centre.",
+              "thailand": "Bangkok.",
+              "vietnam": "Hanoi.",
+              "singapore": "Singapore.",
+              "philippines": "Manila.",
+              "pakistan": "Islamabad.",
+              "bangladesh": "Dhaka.",
+              "nepal": "Kathmandu.",
+              "bhutan": "Thimphu.",
+              "chile": "Santiago.",
+              "peru": "Lima.",
+              "colombia": "Bogotá.",
+              "morocco": "Rabat.",
+              "kenya": "Nairobi.",
+              "nigeria": "Abuja.",
+              "ghana": "Accra.",
+              "ethiopia": "Addis Ababa.",
+              "qatar": "Doha.",
+              "ireland": "Dublin.",
+              "scotland": "Edinburgh is the capital of Scotland, a constituent country of the United Kingdom.",
+              "wales": "Cardiff is the capital of Wales, a constituent country of the United Kingdom.",
+              "iceland": "Reykjavík.",
+              "hungary": "Budapest.",
+              "czechia": "Prague.",
+              "russia": "Moscow.",
+              "ukraine": "Kyiv.",
+              "iran": "Tehran.",
+              "iraq": "Baghdad.",
+              "afghanistan": "Kabul.",
+              "myanmar": "Naypyidaw.",
+              "cambodia": "Phnom Penh.",
+              "laos": "Vientiane.",
+              "mongolia": "Ulaanbaatar.",
+              "cuba": "Havana.",
+              "jamaica": "Kingston.",
+              "venezuela": "Caracas.",
+              "ecuador": "Quito.",
+              "bolivia": "Sucre is the constitutional capital; La Paz is the seat of government.",
+              "paraguay": "Asunción.",
+              "uruguay": "Montevideo.",
+              "tanzania": "Dodoma is the official capital; Dar es Salaam remains the largest city and economic hub.",
+              "uganda": "Kampala.",
+              "sudan": "Khartoum.",
+              "libya": "Tripoli.",
+              "tunisia": "Tunis.",
+              "algeria": "Algiers.",
+              "senegal": "Dakar.",
+              "zimbabwe": "Harare.",
+              "mozambique": "Maputo.",
+              "madagascar": "Antananarivo.",
+              "fiji": "Suva.",
+              "jordan": "Amman.",
+              "lebanon": "Beirut.",
+              "kuwait": "Kuwait City.",
+              "oman": "Muscat.",
+              "bahrain": "Manama.",
+              "cyprus": "Nicosia.",
+              "serbia": "Belgrade.",
+              "croatia": "Zagreb.",
+              "romania": "Bucharest.",
+              "bulgaria": "Sofia.",
+              "albania": "Tirana.",
+              "georgia": "Tbilisi.",
+              "armenia": "Yerevan.",
+              "azerbaijan": "Baku.",
+              "estonia": "Tallinn.",
+              "latvia": "Riga.",
+              "lithuania": "Vilnius.",
+              "luxembourg": "Luxembourg City.",
+              "malta": "Valletta.",
+              "sri": {
+                "lanka": "Sri Jayawardenepura Kotte is Sri Lanka's legislative capital; Colombo is the largest city."
+              },
+              "south": {
+                "korea": "Seoul.",
+                "africa": "South Africa has three capitals: Pretoria (executive), Cape Town (legislative), and Bloemfontein (judicial)."
+              },
+              "new": {
+                "zealand": "Wellington."
+              },
+              "saudi": {
+                "arabia": "Riyadh."
+              },
+              "united": {
+                "kingdom": "London.",
+                "states": "Washington, D.C.",
+                "arab": {
+                  "emirates": "Abu Dhabi."
+                }
+              },
+              "czech": {
+                "republic": "Prague."
+              },
+              "north": {
+                "korea": "Pyongyang."
+              },
+              "costa": {
+                "rica": "San José."
+              },
+              "el": {
+                "salvador": "San Salvador."
+              },
+              "sierra": {
+                "leone": "Freetown."
+              },
+              "papua": {
+                "new": {
+                  "guinea": "Port Moresby."
+                }
+              }
+            }
+          },
+          "currency": {
+            "of": {
+              "japan": "The Japanese Yen (JPY).",
+              "india": "The Indian Rupee (INR).",
+              "china": "The Chinese Yuan (Renminbi / CNY).",
+              "russia": "The Russian Ruble (RUB).",
+              "germany": "The Euro (EUR).",
+              "france": "The Euro (EUR).",
+              "switzerland": "The Swiss Franc (CHF).",
+              "australia": "The Australian Dollar (AUD).",
+              "canada": "The Canadian Dollar (CAD).",
+              "brazil": "The Brazilian Real (BRL).",
+              "mexico": "The Mexican Peso (MXN).",
+              "south": {
+                "korea": "The South Korean Won (KRW).",
+                "africa": "The South African Rand (ZAR)."
+              },
+              "turkey": "The Turkish Lira (TRY).",
+              "sweden": "The Swedish Krona (SEK).",
+              "norway": "The Norwegian Krone (NOK).",
+              "denmark": "The Danish Krone (DKK).",
+              "poland": "The Polish Złoty (PLN).",
+              "thailand": "The Thai Baht (THB).",
+              "singapore": "The Singapore Dollar (SGD).",
+              "malaysia": "The Malaysian Ringgit (MYR).",
+              "indonesia": "The Indonesian Rupiah (IDR).",
+              "philippines": "The Philippine Peso (PHP).",
+              "egypt": "The Egyptian Pound (EGP).",
+              "nigeria": "The Nigerian Naira (NGN).",
+              "pakistan": "The Pakistani Rupee (PKR).",
+              "bangladesh": "The Bangladeshi Taka (BDT).",
+              "argentina": "The Argentine Peso (ARS).",
+              "united": {
+                "kingdom": "The British Pound Sterling (GBP).",
+                "states": "The United States Dollar (USD).",
+                "arab": {
+                  "emirates": "The UAE Dirham (AED)."
+                }
+              },
+              "saudi": {
+                "arabia": "The Saudi Riyal (SAR)."
+              },
+              "new": {
+                "zealand": "The New Zealand Dollar (NZD)."
+              }
+            }
+          },
+          "longest": {
+            "river": [
+              "The Nile is commonly listed as the world's longest river at roughly 6,650 km, although the Amazon is a close contender depending on how sources are measured.",
+              "The Amazon is another leading candidate; the Nile–Amazon comparison remains disputed by measurement methodology."
+            ],
+            "mountain": {
+              "range": "The global mid-ocean ridge system is the longest mountain range on Earth (~65,000 km) but lies mostly underwater. The Andes (~7,000 km) are the longest continental mountain range."
+            },
+            "wall": "The Great Wall of China's surveyed sections total about 21,000 km when all branches and historical periods are included; it is not one continuous wall."
+          },
+          "highest": {
+            "mountain": [
+              "Mount Everest is the highest mountain above sea level, at about 8,849 m.",
+              "Everest lies on the Nepal–China border in the Himalayas."
+            ],
+            "waterfall": "Angel Falls in Venezuela has a total height of about 979 m; its longest uninterrupted drop is about 807 m.",
+            "volcano": "Ojos del Salado on the Argentina–Chile border is commonly identified as the world's highest active volcano, at about 6,893 m."
+          },
+          "largest": {
+            "ocean": "The Pacific Ocean is the largest ocean by area — it covers more surface area than all of Earth's land combined.",
+            "desert": "Antarctica is the world's largest desert by area because deserts are defined by low precipitation, not by heat.",
+            "hot": {
+              "desert": "The Sahara is the world's largest hot desert, covering roughly 9 million km² in North Africa."
+            },
+            "island": "Greenland is generally considered the world's largest island, excluding continental landmasses.",
+            "lake": "The Caspian Sea is the world's largest inland body of water by surface area.",
+            "freshwater": {
+              "lake": "Lake Superior is the largest freshwater lake by surface area; Lake Baikal is the largest by volume."
+            },
+            "rainforest": "The Amazon rainforest is the world's largest tropical rainforest, spanning parts of several South American countries, especially Brazil, Peru, and Colombia.",
+            "country": {
+              "by": {
+                "area": "Russia is the world's largest country by total area, spanning Europe and Asia."
+              }
+            },
+            "mammal": "The blue whale is the largest known animal — adults can reach around 30 metres long and weigh well over 100 metric tonnes.",
+            "planet": "Jupiter is the largest planet in the Solar System by diameter, volume, and mass.",
+            "moon": "Ganymede, a moon of Jupiter, is the largest moon in the Solar System — larger in diameter than Mercury.",
+            "organ": {
+              "in": {
+                "the": {
+                  "human": {
+                    "body": "The skin is the largest human organ by surface area; the liver is the largest internal organ."
+                  }
+                }
+              }
+            }
+          },
+          "smallest": {
+            "country": "Vatican City, an independent city-state surrounded by Rome, Italy.",
+            "ocean": "The Arctic Ocean, centered around the North Pole region.",
+            "planet": "Mercury, the innermost planet orbiting closest to the Sun.",
+            "bird": "The bee hummingbird, native to Cuba — adults are about 5–6 cm long.",
+            "bone": {
+              "in": {
+                "the": {
+                  "body": "The stapes, a tiny bone in the middle ear (~3 mm long)."
+                }
+              }
+            },
+            "continent": "Australia is commonly considered the smallest continent."
+          },
+          "deepest": {
+            "ocean": {
+              "trench": "The Mariana Trench in the western Pacific contains the Challenger Deep, nearly 11,000 m below sea level."
+            },
+            "lake": "Lake Baikal in Siberia, Russia, reaches about 1,642 m depth — the world's deepest lake."
+          },
+          "fastest": {
+            "f1": {
+              "pitstop": "McLaren changed Lando Norris's tyres in 1.80 seconds at the 2023 Qatar Grand Prix — a Formula 1 record."
+            },
+            "land": {
+              "animal": "The cheetah can reach around 100 km/h in brief bursts, making it the fastest land animal."
+            },
+            "bird": "The peregrine falcon is the fastest bird in a hunting dive, with reported speeds exceeding 300 km/h.",
+            "fish": "The sailfish is often described as one of the fastest fish, though precise speeds are difficult to measure."
+          },
+          "hottest": {
+            "planet": "Venus has the hottest average surface temperature (~465°C) due to its intense carbon-dioxide greenhouse effect."
+          },
+          "coldest": {
+            "planet": "Neptune has the lowest mean temperature in NASA's comparison, while Uranus has recorded some of the lowest atmospheric temperatures. The ranking depends on which measure is used."
+          },
+          "hardest": {
+            "natural": {
+              "mineral": "Diamond ranks 10 on the Mohs hardness scale — highest for scratch resistance, though that doesn't mean toughest."
+            }
+          },
+          "difference": {
+            "between": {
+              "ram": {
+                "and": {
+                  "rom": "RAM is volatile working memory that loses contents when power is removed. ROM is non-volatile memory used for firmware."
+                }
+              },
+              "sata": {
+                "and": {
+                  "nvme": "SATA SSDs max out around 550 MB/s. NVMe over PCIe can be much faster — actual speed depends on the drive and workload."
+                }
+              },
+              "lcd": {
+                "and": {
+                  "oled": "LCDs use a backlight and liquid-crystal layer. OLED pixels emit their own light and can turn off individually for true blacks."
+                }
+              },
+              "weather": {
+                "and": {
+                  "climate": "Weather describes short-term atmospheric conditions; climate describes long-term patterns, commonly over 30-year periods."
+                }
+              },
+              "speed": {
+                "and": {
+                  "velocity": "Speed measures how fast something moves; velocity adds a specific direction to that measurement."
+                }
+              },
+              "mass": {
+                "and": {
+                  "weight": "Mass measures the amount of matter in an object; weight measures gravitational pull on that mass."
+                }
+              },
+              "cpu": {
+                "and": {
+                  "gpu": "CPUs handle general-purpose sequential tasks. GPUs handle massively parallel tasks like rendering and AI workloads."
+                }
+              },
+              "http": {
+                "and": {
+                  "https": "HTTP sends data in plain text. HTTPS encrypts the connection using TLS, protecting data in transit."
+                }
+              },
+              "tcp": {
+                "and": {
+                  "udp": "TCP guarantees ordered, reliable delivery with error checking. UDP is faster but doesn't guarantee delivery — used in gaming and streaming."
+                }
+              }
+            }
+          },
+          "speed": {
+            "of": {
+              "light": [
+                "The speed of light in a vacuum is exactly 299,792,458 metres per second (approximately 300,000 km/s).",
+                "Nothing with mass can reach or exceed the speed of light, according to Einstein's special relativity."
+              ],
+              "sound": [
+                "The speed of sound in dry air at 20°C is approximately 343 metres per second (about 1,235 km/h).",
+                "Sound travels faster in water and even faster in solids like steel."
+              ]
+            }
+          }
+        },
+        "a": {
+          "black": {
+            "hole": [
+              "A black hole is a region of spacetime whose event horizon marks the boundary beyond which light cannot escape.",
+              "Black holes form through several possible processes; their interiors are not directly observable."
+            ]
+          },
+          "light": {
+            "year": [
+              "The distance light travels in one Earth year — roughly 9.46 trillion kilometers.",
+              "A unit of astronomical distance measuring how far a beam of light travels in a single year."
+            ]
+          },
+          "supernova": [
+            "A supernova is a powerful explosion that occurs at the end of certain stars' lives, briefly outshining entire galaxies.",
+            "Supernovae scatter heavy elements into space and can trigger the formation of new stars."
+          ],
+          "nebula": [
+            "A nebula is a giant cloud of gas and dust in space. Some nebulae are regions where new stars form.",
+            "The word comes from Latin for 'cloud'; nebulae come in many types including emission, reflection, and planetary."
+          ]
+        }
       },
       "are": {
         "the": {
           "primary": {
             "colors": [
-              "Primary colors depend on the color system: traditional painting often teaches red, yellow, and blue; subtractive printing commonly uses cyan, magenta, and yellow; additive light uses red, green, and blue.",
+              "Primary colors depend on the color system: painting often uses red, yellow, and blue; printing uses cyan, magenta, and yellow; screens use red, green, and blue (RGB).",
               "For screens and emitted light, the primary colors are red, green, and blue (RGB)."
             ]
           },
           "rock": {
-            "types": "The three commonly taught rock types are igneous (formed as molten rock cools), sedimentary (formed from deposited material that is compacted and/or cemented, or from chemical/biological precipitation), and metamorphic (rock changed by heat, pressure, and chemically active fluids)."
+            "types": "The three main rock types are igneous (from cooled molten rock), sedimentary (from deposited and compacted material), and metamorphic (changed by heat and pressure)."
           },
           "states": {
             "of": {
-              "matter": "Commonly taught states of matter include solid, liquid, gas, and plasma; other states exist under particular conditions."
+              "matter": "Commonly taught states: solid, liquid, gas, and plasma. Other states exist under extreme conditions."
             }
           },
           "colors": {
@@ -245,229 +734,24 @@
             }
           },
           "greenhouse": {
-            "gases": "Important greenhouse gases include water vapor, carbon dioxide, methane, nitrous oxide, ozone, and several human-made gases such as fluorinated compounds."
+            "gases": "Important greenhouse gases include water vapor, carbon dioxide, methane, nitrous oxide, ozone, and fluorinated compounds."
+          },
+          "layers": {
+            "of": {
+              "the": {
+                "earth": "Core (inner and outer), mantle, and crust. The inner core is solid iron-nickel; the outer core is liquid.",
+                "atmosphere": "Troposphere, stratosphere, mesosphere, thermosphere, and exosphere — from lowest to highest."
+              }
+            }
           }
         }
       },
-      "the": {
-        "capital": {
-          "of": {
-            "france": "Paris.",
-            "japan": "Tokyo.",
-            "germany": "Berlin.",
-            "italy": "Rome.",
-            "canada": "Ottawa.",
-            "australia": "Canberra.",
-            "india": "New Delhi.",
-            "brazil": "Brasília.",
-            "egypt": "Cairo.",
-            "china": "Beijing.",
-            "spain": "Madrid.",
-            "mexico": "Mexico City.",
-            "norway": "Oslo.",
-            "argentina": "Buenos Aires.",
-            "turkey": "Ankara, Türkiye (Turkey).",
-            "sweden": "Stockholm.",
-            "finland": "Helsinki.",
-            "denmark": "Copenhagen.",
-            "portugal": "Lisbon.",
-            "greece": "Athens.",
-            "poland": "Warsaw.",
-            "netherlands": "Amsterdam is the constitutional capital of the Netherlands; the Dutch government and parliament are seated in The Hague.",
-            "belgium": "Brussels.",
-            "switzerland": "Bern.",
-            "austria": "Vienna.",
-            "indonesia": "Jakarta remains Indonesia’s capital for legal purposes as of October 2026; the transfer to Nusantara depends on a presidential decree. Nusantara is being developed as the future political capital, with the government targeting 2028 for that role.",
-            "malaysia": "Kuala Lumpur is Malaysia’s national capital; Putrajaya is the federal administrative centre.",
-            "thailand": "Bangkok.",
-            "vietnam": "Hanoi.",
-            "singapore": "Singapore.",
-            "philippines": "Manila.",
-            "pakistan": "Islamabad.",
-            "bangladesh": "Dhaka.",
-            "sri": {
-              "lanka": "Sri Jayawardenepura Kotte is Sri Lanka’s legislative capital; Colombo remains the country’s largest city and a major commercial centre."
-            },
-            "nepal": "Kathmandu.",
-            "bhutan": "Thimphu.",
-            "chile": "Santiago.",
-            "peru": "Lima.",
-            "colombia": "Bogotá.",
-            "morocco": "Rabat.",
-            "kenya": "Nairobi.",
-            "nigeria": "Abuja.",
-            "ghana": "Accra.",
-            "ethiopia": "Addis Ababa.",
-            "south": {
-              "korea": "Seoul.",
-              "africa": "South Africa has three commonly cited capital functions: Pretoria (executive), Cape Town (legislative), and Bloemfontein (judicial in the traditional arrangement)."
-            },
-            "new": {
-              "zealand": "Wellington."
-            },
-            "saudi": {
-              "arabia": "Riyadh."
-            },
-            "united": {
-              "kingdom": "London.",
-              "states": "Washington, D.C.",
-              "arab": {
-                "emirates": "Abu Dhabi."
-              }
-            },
-            "qatar": "Doha.",
-            "ireland": "Dublin.",
-            "scotland": "Edinburgh is the capital of Scotland, a constituent country of the United Kingdom.",
-            "wales": "Cardiff is the capital of Wales, a constituent country of the United Kingdom.",
-            "iceland": "Reykjavík.",
-            "hungary": "Budapest.",
-            "czechia": "Prague.",
-            "czech": {
-              "republic": "Prague."
-            },
-            "russia": "Moscow.",
-            "ukraine": "Kyiv."
-          }
-        },
-        "currency": {
-          "of": {
-            "japan": "The Japanese Yen (JPY).",
-            "india": "The Indian Rupee (INR).",
-            "united": {
-              "kingdom": "The British Pound Sterling (GBP).",
-              "states": "The United States Dollar (USD)."
-            },
-            "china": "The Chinese Yuan (Renminbi / CNY).",
-            "russia": "The Russian Ruble (RUB).",
-            "germany": "The Euro (EUR).",
-            "france": "The Euro (EUR).",
-            "switzerland": "The Swiss Franc (CHF).",
-            "australia": "The Australian Dollar (AUD).",
-            "canada": "The Canadian Dollar (CAD)."
-          }
-        },
-        "longest": {
-          "river": [
-            "The Nile is commonly listed as the world’s longest river at roughly 6,650 km, although rankings vary by source and by how river sources are measured.",
-            "The Amazon is another leading candidate in some measurements; the Nile–Amazon comparison remains disputed."
-          ],
-          "mountain": {
-            "range": "The global mid-ocean ridge system is the longest mountain range on Earth, stretching roughly 65,000 km and lying mostly underwater. The Andes, at about 7,000 km, are generally considered the longest continental mountain range."
-          },
-          "wall": "The Great Wall of China’s surveyed sections total about 21,000 km when branches and different periods’ sections are included; it is not one continuous wall."
-        },
-        "highest": {
-          "mountain": [
-            "Mount Everest is the highest mountain above sea level, at about 8,849 m.",
-            "Everest lies on the Nepal–China border in the Himalayas."
-          ],
-          "waterfall": "Angel Falls in Venezuela has a total height of about 979 m; its longest uninterrupted drop is about 807 m.",
-          "volcano": "Ojos del Salado, on the Argentina–Chile border, is commonly identified as the world’s highest active volcano, at about 6,893 m above sea level; definitions of “active” can vary."
-        },
-        "largest": {
-          "ocean": "The Pacific Ocean is the largest ocean by area; it covers more surface area than all of Earth’s land combined.",
-          "desert": "Antarctica is the world’s largest desert by area because deserts are defined by low precipitation, not by heat.",
-          "hot": {
-            "desert": "The Sahara is the world’s largest hot desert, covering roughly 9 million square kilometres in North Africa."
-          },
-          "island": "Greenland is generally considered the world’s largest island, excluding continental landmasses.",
-          "lake": "The Caspian Sea is the world’s largest inland body of water by surface area and is commonly classified as a lake despite its name.",
-          "freshwater": {
-            "lake": "Lake Superior is the largest freshwater lake by surface area; Lake Baikal is the largest by volume."
-          },
-          "rainforest": "The Amazon rainforest is the world’s largest tropical rainforest, spanning parts of several South American countries and territories, especially Brazil, Peru, and Colombia.",
-          "country": {
-            "by": {
-              "area": "Russia is the world’s largest country by total area, spanning Europe and Asia and currently using 11 time zones."
-            }
-          },
-          "mammal": "The blue whale is the largest known animal and mammal; adults can reach around 30 metres long and weigh well over 100 metric tonnes, with size varying by individual and population.",
-          "planet": "Jupiter is the largest planet in the Solar System by diameter, volume, and mass.",
-          "moon": "Ganymede, a moon of Jupiter, is the largest moon in the Solar System and is larger in diameter than Mercury.",
-          "organ": {
-            "in": {
-              "the": {
-                "human": {
-                  "body": "The skin is generally considered the largest human organ by surface area and overall mass; the liver is the largest internal organ."
-                }
-              }
-            }
-          }
-        },
-        "smallest": {
-          "country": "Vatican City, an independent city-state completely surrounded by Rome, Italy.",
-          "ocean": "The Arctic Ocean, centered around the North Pole region.",
-          "planet": "Mercury, the tiny innermost planet orbiting closest to the Sun.",
-          "bird": "The bee hummingbird, native to Cuba, is generally recognized as the smallest living bird; adults are about 5–6 cm long, depending on sex and measurement.",
-          "bone": {
-            "in": {
-              "the": {
-                "body": "The stapes, a tiny bone in the middle ear, is the smallest bone in the human body and is about 3 mm long."
-              }
-            }
-          },
-          "continent": "Australia is commonly considered the smallest continent. Some geographic models use “Oceania” for the wider region of Australia and Pacific islands, so continent labels vary by convention."
-        },
-        "deepest": {
-          "ocean": {
-            "trench": "The Mariana Trench in the western Pacific contains the Challenger Deep, nearly 11,000 m below sea level by commonly cited measurements; exact figures vary by survey."
-          },
-          "lake": "Lake Baikal in southern Siberia, Russia, reaches a maximum depth of about 1,642 m and is the world’s deepest lake."
-        },
-        "fastest": {
-          "f1": {
-            "pitstop": "McLaren changed Lando Norris’s tyres in 1.80 seconds at the 2023 Qatar Grand Prix, a Formula 1 record reported by F1 at the time."
-          },
-          "land": {
-            "animal": "The cheetah is the fastest land animal over short distances, reaching around 100 km/h in brief bursts; reported top speeds vary by measurement."
-          },
-          "bird": "The peregrine falcon is the fastest bird in a hunting dive; reported speeds can exceed 300 km/h, while exact maximums depend on measurement conditions. That does not make it the fastest bird in level flight.",
-          "fish": "The sailfish is often described as one of the fastest fish, but precise top-speed figures are disputed and difficult to measure reliably; avoid treating a specific maximum speed as settled fact."
-        },
-        "hottest": {
-          "planet": "Venus has the hottest average surface temperature among the planets, around 465°C, because its dense carbon-dioxide atmosphere produces an intense greenhouse effect."
-        },
-        "coldest": {
-          "planet": "There is no single answer without specifying the measure: NASA’s mean-temperature comparison lists Neptune as colder on average than Uranus, while Uranus has recorded exceptionally low atmospheric temperatures. The ranking depends on which atmospheric level and temperature measure are compared."
-        },
-        "hardest": {
-          "natural": {
-            "mineral": "Diamond ranks 10 on the Mohs hardness scale, the highest on that scale. Mohs hardness measures resistance to scratching, not toughness or resistance to breaking."
-          }
-        },
-        "difference": {
-          "between": {
-            "ram": {
-              "and": {
-                "rom": "RAM is volatile working memory that normally loses its contents when power is removed. ROM traditionally refers to non-volatile memory used to store firmware or other data; whether it can be rewritten depends on the type of memory."
-              }
-            },
-            "sata": {
-              "and": {
-                "nvme": "SATA SSDs use the SATA interface and often deliver up to roughly 550 MB/s for sequential transfers. NVMe is a storage protocol commonly used over PCIe and can be much faster; actual performance depends on the drive, workload, and PCIe generation."
-              }
-            },
-            "lcd": {
-              "and": {
-                "oled": "LCDs use a backlight and liquid-crystal layer, while OLED pixels emit their own light; OLED can turn individual pixels off for very deep blacks."
-              }
-            },
-            "weather": {
-              "and": {
-                "climate": "Weather describes short-term atmospheric conditions; climate describes patterns and statistics of weather over long periods, commonly 30-year periods in formal climate normals."
-              }
-            },
-            "speed": {
-              "and": {
-                "velocity": "Speed measures how fast something moves; velocity measures speed along with a specific direction."
-              }
-            },
-            "mass": {
-              "and": {
-                "weight": "Mass measures the amount of matter in an object; weight measures the gravitational pull exerted on that mass."
-              }
-            }
-          }
+      "does": {
+        "dqm": {
+          "do": [
+            "DQM takes your query, splits it into words, and walks a tree of stored answers to find a match. No AI, no generation — just lookup.",
+            "It's a deterministic query engine: same input always gives the same pool of answers, pulled from a hand-built knowledge base."
+          ]
         }
       }
     },
@@ -478,15 +762,15 @@
           "Mohamed Tanzeem I, creator and lead developer behind this engine."
         ],
         "lando": [
-          "Lando Norris, 2025 Formula 1 Drivers’ World Champion, races for McLaren in 2026 with car number 1.",
-          "Lando Norris is a British Formula 1 driver for McLaren; he won the 2025 Drivers’ Championship and uses number 1 in 2026."
+          "Lando Norris, 2025 Formula 1 Drivers' World Champion, races for McLaren in 2026 with car number 1.",
+          "Lando Norris is a British Formula 1 driver for McLaren; he won the 2025 Drivers' Championship and uses number 1 in 2026."
         ],
-        "norris": "Lando Norris, McLaren driver and 2025 Formula 1 Drivers’ World Champion, racing with number 1 in 2026.",
+        "norris": "Lando Norris, McLaren driver and 2025 F1 World Champion, racing with number 1 in 2026.",
         "max": [
-          "Max Verstappen, four-time Formula 1 Drivers’ World Champion, races for Red Bull Racing with car number 3 in 2026.",
-          "Max Verstappen is a Dutch Formula 1 driver for Red Bull Racing; he won the Drivers’ Championship in 2021, 2022, 2023, and 2024."
+          "Max Verstappen, four-time Formula 1 Drivers' World Champion, races for Red Bull Racing with car number 3 in 2026.",
+          "Max Verstappen is a Dutch Formula 1 driver for Red Bull Racing; he won the Drivers' Championship in 2021, 2022, 2023, and 2024."
         ],
-        "verstappen": "Max Verstappen, Red Bull Racing driver and four-time Formula 1 Drivers’ World Champion, racing with number 3 in 2026.",
+        "verstappen": "Max Verstappen, Red Bull Racing driver and four-time F1 World Champion, racing with number 3 in 2026.",
         "hadjar": [
           "Isack Hadjar is a Formula 1 driver for Red Bull Racing in 2026, racing with number 6.",
           "Isack Hadjar moved to Red Bull Racing for the 2026 Formula 1 season."
@@ -495,73 +779,102 @@
           "Andrea Kimi Antonelli is an Italian Formula 1 driver for Mercedes, racing with number 12 in 2026.",
           "Kimi Antonelli competes for Mercedes alongside George Russell in the 2026 F1 season."
         ],
-        "antonelli": "Andrea Kimi Antonelli, Mercedes Formula 1 driver with car number 12 in 2026.",
+        "antonelli": "Andrea Kimi Antonelli, Mercedes F1 driver with car number 12 in 2026.",
         "george": "George Russell, Mercedes Formula 1 driver with car number 63 in 2026.",
-        "russell": "George Russell, Mercedes Formula 1 driver with car number 63 in 2026.",
+        "russell": "George Russell, Mercedes F1 driver with car number 63 in 2026.",
         "lewis": [
-          "Lewis Hamilton, seven-time Formula 1 Drivers’ World Champion, races for Ferrari with car number 44 in 2026.",
+          "Lewis Hamilton, seven-time Formula 1 Drivers' World Champion, races for Ferrari with car number 44 in 2026.",
           "Lewis Hamilton is a British Ferrari driver and seven-time world champion, competing with number 44."
         ],
-        "hamilton": "Lewis Hamilton, seven-time Formula 1 Drivers’ World Champion and Ferrari driver with car number 44 in 2026.",
+        "hamilton": "Lewis Hamilton, seven-time F1 World Champion and Ferrari driver with car number 44 in 2026.",
         "charles": "Charles Leclerc, Ferrari Formula 1 driver with car number 16 in 2026.",
-        "leclerc": "Charles Leclerc, Monegasque Formula 1 driver for Ferrari, racing with number 16 in 2026.",
+        "leclerc": "Charles Leclerc, Monegasque F1 driver for Ferrari, racing with number 16 in 2026.",
         "oscar": "Oscar Piastri, Australian Formula 1 driver for McLaren, racing with number 81 in 2026.",
-        "piastri": "Oscar Piastri, McLaren Formula 1 driver with car number 81 in 2026.",
-        "alonso": "Fernando Alonso, two-time Formula 1 Drivers’ World Champion and Aston Martin driver with car number 14 in 2026.",
+        "piastri": "Oscar Piastri, McLaren F1 driver with car number 81 in 2026.",
+        "alonso": "Fernando Alonso, two-time F1 World Champion and Aston Martin driver with car number 14 in 2026.",
         "fernando": "Fernando Alonso, Spanish Formula 1 driver for Aston Martin, racing with number 14 in 2026.",
         "sainz": "Carlos Sainz, Spanish Formula 1 driver for Williams, racing with number 55 in 2026.",
-        "albon": "Alexander Albon, Williams Formula 1 driver with car number 23 in 2026.",
+        "albon": "Alexander Albon, Williams F1 driver with car number 23 in 2026.",
         "gasly": "Pierre Gasly, French Formula 1 driver for Alpine, racing with number 10 in 2026.",
-        "doohan": "Jack Doohan is an Australian racing driver who competed for Alpine in Formula 1 during 2025; he is not on the 2026 F1 race grid.",
+        "doohan": "Jack Doohan is an Australian racing driver who competed for Alpine in F1 during 2025; he is not on the 2026 grid.",
         "ocon": "Esteban Ocon, Haas Formula 1 driver with car number 31 in 2026.",
-        "bearman": "Oliver Bearman, Haas Formula 1 driver with car number 87 in 2026.",
+        "bearman": "Oliver Bearman, Haas F1 driver with car number 87 in 2026.",
         "hulkenberg": "Nico Hülkenberg, Audi Formula 1 driver with car number 27 in 2026.",
-        "bortoleto": "Gabriel Bortoleto, Audi Formula 1 driver with car number 5 in 2026 and 2024 Formula 2 champion.",
-        "tsunoda": "Yuki Tsunoda is a Japanese driver who raced in Formula 1 for Racing Bulls and Red Bull; he is not on the 2026 F1 race grid.",
-        "lawson": "Liam Lawson, Racing Bulls Formula 1 driver with car number 30 in 2026.",
+        "bortoleto": "Gabriel Bortoleto, Audi F1 driver with car number 5 in 2026 and 2024 Formula 2 champion.",
+        "tsunoda": "Yuki Tsunoda raced in F1 for Racing Bulls and Red Bull; he is not on the 2026 grid.",
+        "lawson": "Liam Lawson, Racing Bulls F1 driver with car number 30 in 2026.",
         "stroll": "Lance Stroll, Canadian Formula 1 driver for Aston Martin, racing with number 18 in 2026.",
+        "lindblad": "Arvid Lindblad, Racing Bulls F1 driver with car number 41 in 2026.",
+        "colapinto": "Franco Colapinto, Alpine F1 driver with car number 43 in 2026.",
+        "bottas": "Valtteri Bottas, Cadillac F1 driver with car number 77 in 2026.",
+        "perez": "Sergio Pérez, Cadillac F1 driver with car number 11 in 2026.",
         "toto": "Toto Wolff, Team Principal and co-owner of the Mercedes-AMG Petronas F1 Team.",
-        "horner": "Christian Horner was Red Bull Racing’s long-time Team Principal and left the role in 2025; this is a historical role description, not a current team position.",
-        "vasseur": "Fred Vasseur, Team Principal managing Scuderia Ferrari.",
-        "stella": "Andrea Stella, Team Principal leading McLaren Formula 1.",
-        "newey": "Adrian Newey is a highly successful Formula 1 car designer. In 2026 he is Aston Martin’s Team Principal, as well as a major technical figure for the team.",
+        "horner": "Christian Horner was Red Bull Racing's long-time Team Principal and left the role in 2025.",
+        "vasseur": "Fred Vasseur, Team Principal of Scuderia Ferrari.",
+        "stella": "Andrea Stella, Team Principal of McLaren Formula 1.",
+        "newey": "Adrian Newey is a legendary F1 car designer. In 2026 he is Aston Martin's Team Principal and technical lead.",
         "torvalds": "Linus Torvalds, the software engineer who created Linux and Git.",
         "einstein": "Albert Einstein, the physicist who developed the theory of relativity.",
         "newton": "Sir Isaac Newton, the mathematician and physicist who formulated the laws of motion and universal gravitation.",
-        "lindblad": "Arvid Lindblad, Racing Bulls Formula 1 driver with car number 41 in 2026.",
-        "colapinto": "Franco Colapinto, Alpine Formula 1 driver with car number 43 in 2026.",
-        "bottas": "Valtteri Bottas, Cadillac Formula 1 driver with car number 77 in 2026.",
-        "perez": "Sergio Pérez, Cadillac Formula 1 driver with car number 11 in 2026."
+        "tesla": "Nikola Tesla, the inventor and electrical engineer known for his work on AC power systems, the Tesla coil, and wireless energy concepts.",
+        "turing": "Alan Turing, the mathematician and cryptanalyst who formalized computation, broke the Enigma code, and is widely considered the father of computer science.",
+        "hawking": "Stephen Hawking, the theoretical physicist known for his work on black holes, Hawking radiation, and popular science writing.",
+        "curie": "Marie Curie, the physicist and chemist who pioneered research on radioactivity and was the first person to win Nobel Prizes in two different sciences."
       },
       "invented": {
         "the": {
-          "telephone": "Alexander Graham Bell received a key telephone patent in 1876; the telephone’s development involved multiple inventors and contested priority claims.",
+          "telephone": "Alexander Graham Bell received a key telephone patent in 1876; the development involved multiple inventors and contested priority claims.",
           "lightbulb": "Thomas Edison developed the first practical commercial incandescent bulb, alongside innovators like Joseph Swan.",
-          "airplane": "Orville and Wilbur Wright made the first widely recognized sustained, controlled, powered flights in a heavier-than-air aircraft in 1903; powered flight was the result of earlier work by many people.",
-          "computer": "No single person invented the modern computer. Charles Babbage designed early general-purpose mechanical-computer concepts, Ada Lovelace wrote foundational notes on programming, Alan Turing developed influential theory of computation, and later teams built electronic computers.",
-          "internet": "No single person invented the Internet. Vint Cerf, Bob Kahn, and many others helped develop the TCP/IP protocols that underpin it; Tim Berners-Lee later invented the World Wide Web, which is a service that runs on the Internet."
+          "airplane": "Orville and Wilbur Wright made the first widely recognized sustained, controlled, powered flights in 1903.",
+          "computer": "No single person invented the modern computer. Babbage designed early concepts, Lovelace wrote foundational notes, Turing developed theory, and later teams built electronic computers.",
+          "internet": "No single person invented the Internet. Vint Cerf, Bob Kahn, and others developed TCP/IP; Tim Berners-Lee later invented the World Wide Web.",
+          "radio": "Guglielmo Marconi is credited with the first practical radio communication system, building on work by Hertz, Tesla, and others.",
+          "television": "Multiple inventors contributed, including Philo Farnsworth (electronic TV) and John Logie Baird (mechanical TV) in the 1920s."
         }
       },
       "discovered": {
-        "gravity": "Isaac Newton formulated the law of universal gravitation; gravity itself was not discovered by one person, and Einstein later developed a broader description in general relativity.",
-        "penicillin": "Alexander Fleming noticed penicillin’s antibacterial effect in 1928. Howard Florey, Ernst Chain, and their colleagues later developed it into a usable medicine."
+        "gravity": "Isaac Newton formulated the law of universal gravitation; Einstein later developed general relativity as a broader description.",
+        "penicillin": "Alexander Fleming noticed penicillin's antibacterial effect in 1928. Florey and Chain later developed it into usable medicine.",
+        "electricity": "Electricity wasn't discovered by one person. Key contributors include Benjamin Franklin, Michael Faraday, and Nikola Tesla.",
+        "dna": "The double-helix structure of DNA was described by James Watson and Francis Crick in 1953, building on X-ray work by Rosalind Franklin and Maurice Wilkins."
       },
       "won": {
         "f1": {
+          "2010": "Sebastian Vettel with Red Bull Racing.",
+          "2011": "Sebastian Vettel with Red Bull Racing.",
+          "2012": "Sebastian Vettel with Red Bull Racing.",
+          "2013": "Sebastian Vettel with Red Bull Racing.",
+          "2014": "Lewis Hamilton with Mercedes.",
+          "2015": "Lewis Hamilton with Mercedes.",
+          "2016": "Nico Rosberg with Mercedes.",
+          "2017": "Lewis Hamilton with Mercedes.",
           "2018": "Lewis Hamilton with Mercedes.",
           "2019": "Lewis Hamilton with Mercedes.",
-          "2020": "Lewis Hamilton with Mercedes, earning his seventh Drivers’ Championship.",
+          "2020": "Lewis Hamilton with Mercedes, earning his seventh Drivers' Championship.",
           "2021": "Max Verstappen with Red Bull Racing.",
           "2022": "Max Verstappen with Red Bull Racing.",
           "2023": "Max Verstappen with Red Bull Racing.",
           "2024": "Max Verstappen with Red Bull Racing.",
-          "2025": "Lando Norris with McLaren, winning his first Drivers’ Championship."
+          "2025": "Lando Norris with McLaren, winning his first Drivers' Championship."
+        },
+        "the": {
+          "world": {
+            "cup": {
+              "2022": "Argentina, defeating France in the final in Qatar.",
+              "2018": "France, defeating Croatia in the final in Russia.",
+              "2014": "Germany, defeating Argentina in the final in Brazil.",
+              "2010": "Spain, defeating the Netherlands in the final in South Africa."
+            }
+          }
         }
       },
       "drives": {
         "for": {
           "mercedes": "George Russell (#63) and Kimi Antonelli (#12).",
           "redbull": "Max Verstappen (#3) and Isack Hadjar (#6).",
+          "red": {
+            "bull": "Max Verstappen (#3) and Isack Hadjar (#6)."
+          },
           "ferrari": "Charles Leclerc (#16) and Lewis Hamilton (#44).",
           "mclaren": "Lando Norris (#1) and Oscar Piastri (#81).",
           "aston": {
@@ -570,7 +883,7 @@
           "williams": "Alexander Albon (#23) and Carlos Sainz (#55).",
           "haas": "Esteban Ocon (#31) and Oliver Bearman (#87).",
           "alpine": "Pierre Gasly (#10) and Franco Colapinto (#43).",
-          "sauber": "Kick Sauber competed through the 2025 season; the team entered Formula 1 as Audi in 2026, with Nico Hülkenberg (#27) and Gabriel Bortoleto (#5).",
+          "sauber": "Kick Sauber competed through 2025; the team entered F1 as Audi in 2026.",
           "racing": {
             "bulls": "Liam Lawson (#30) and Arvid Lindblad (#41)."
           },
@@ -584,35 +897,42 @@
         "monza": "Located in a royal park just north of Milan in Italy. Known as the Temple of Speed.",
         "spa": "Deep inside the Ardennes forest in eastern Belgium.",
         "silverstone": "In Northamptonshire, England, built across the runways of a former WWII airfield.",
-        "suzuka": "In Mie Prefecture, Japan. Known worldwide for its figure-eight crossover layout.",
-        "monaco": "The Circuit de Monaco runs through the streets of Monaco, including parts of Monte Carlo and La Condamine, around the harbour.",
-        "interlagos": "In Sao Paulo, Brazil, known for its undulating counter-clockwise layout.",
-        "zandvoort": "Right on the sand dunes along the Dutch coast in the Netherlands.",
+        "suzuka": "In Mie Prefecture, Japan. Famous for its figure-eight crossover layout.",
+        "monaco": "The Circuit de Monaco runs through the streets of Monaco, including Monte Carlo and La Condamine.",
+        "interlagos": "In São Paulo, Brazil, known for its undulating counter-clockwise layout.",
+        "zandvoort": "On the sand dunes along the Dutch coast in the Netherlands.",
         "bahrain": "In Sakhir, Bahrain, surrounded by desert sand.",
-        "jeddah": "Along the Red Sea coast in Saudi Arabia, known as a fast coastal street circuit.",
-        "austin": "Circuit of the Americas is located in Austin, Texas, USA.",
+        "jeddah": "Along the Red Sea coast in Saudi Arabia — a fast coastal street circuit.",
+        "austin": "Circuit of the Americas (COTA) is located in Austin, Texas, USA.",
         "melbourne": "Albert Park Circuit winds around a scenic lake in Melbourne, Australia.",
-        "baku": "Winding along the Caspian Sea waterfront and around the old fortress walls of Baku, Azerbaijan.",
-        "montreal": "Circuit Gilles Villeneuve sits on the man-made Notre Dame Island in Montreal, Canada.",
-        "singapore": "Marina Bay Street Circuit winds under bright floodlights through the streets of downtown Singapore.",
+        "baku": "Along the Caspian Sea waterfront and around the old fortress walls of Baku, Azerbaijan.",
+        "montreal": "Circuit Gilles Villeneuve sits on Notre Dame Island in Montreal, Canada.",
+        "singapore": "Marina Bay Street Circuit runs under bright floodlights through downtown Singapore.",
+        "imola": "Autodromo Enzo e Dino Ferrari is in Imola, Emilia-Romagna, Italy.",
+        "barcelona": "Circuit de Barcelona-Catalunya is in Montmeló, near Barcelona, Spain.",
+        "hungaroring": "Near Budapest, Hungary — a tight, twisty track sometimes called 'Monaco without the walls.'",
+        "lusail": "Lusail International Circuit is north of Doha, Qatar.",
+        "yas": {
+          "marina": "Yas Marina Circuit is on Yas Island in Abu Dhabi, UAE."
+        },
         "everest": "In the Himalayas on the border between Nepal and China.",
         "sahara": "Across the northern third of Africa, stretching between the Atlantic Ocean and the Red Sea.",
         "amazon": "Spanning northern South America, with the largest stretch flowing through Brazil.",
-        "fuji": "On Honshu Island, Japan, roughly 100 kilometers southwest of Tokyo.",
+        "fuji": "On Honshu Island, Japan, roughly 100 km southwest of Tokyo.",
         "kilimanjaro": "In northeastern Tanzania, near the border with Kenya.",
-        "madagascar": "In the western Indian Ocean, roughly 400 kilometers off the southeastern coast of Africa.",
-        "greenland": "Between the Arctic and Atlantic Oceans, resting east of the Canadian Arctic archipelago.",
-        "iceland": "In the North Atlantic Ocean along the Mid-Atlantic Ridge between Europe and Greenland.",
-        "gibraltar": "On the southern tip of the Iberian Peninsula, overlooking the strait into the Mediterranean Sea.",
+        "madagascar": "In the western Indian Ocean, roughly 400 km off the southeastern coast of Africa.",
+        "greenland": "Between the Arctic and Atlantic Oceans, east of the Canadian Arctic archipelago.",
+        "iceland": "In the North Atlantic Ocean along the Mid-Atlantic Ridge.",
+        "gibraltar": "On the southern tip of the Iberian Peninsula, overlooking the strait into the Mediterranean.",
         "taj": {
-          "mahal": "In Agra, Uttar Pradesh, northern India, along the southern bank of the Yamuna River."
+          "mahal": "In Agra, Uttar Pradesh, India, along the Yamuna River."
         },
         "eiffel": {
           "tower": "On the Champ de Mars in Paris, France, beside the Seine River."
         },
-        "colosseum": "In the historic city center of Rome, Italy, just east of the Roman Forum.",
+        "colosseum": "In the historic center of Rome, Italy, just east of the Roman Forum.",
         "machu": {
-          "picchu": "Set high in the Andes mountains above the Sacred Valley in Peru."
+          "picchu": "High in the Andes mountains above the Sacred Valley in Peru."
         },
         "pyramids": {
           "of": {
@@ -629,20 +949,36 @@
             "of": {
               "china": "Stretching across the northern historical borders of ancient China."
             }
+          },
+          "barrier": {
+            "reef": "Off the northeast coast of Australia, in the Coral Sea."
           }
         },
         "big": {
-          "ben": "Big Ben is the Great Bell inside Elizabeth Tower at the north end of the Palace of Westminster in London; the tower itself is often colloquially called Big Ben."
+          "ben": "Big Ben is the Great Bell inside Elizabeth Tower at the Palace of Westminster in London."
         },
         "stonehenge": "On Salisbury Plain in Wiltshire, England.",
         "suez": {
-          "canal": "In Egypt, connecting the Mediterranean Sea directly down into the Red Sea."
+          "canal": "In Egypt, connecting the Mediterranean Sea to the Red Sea."
         },
         "panama": {
-          "canal": "In Central America, linking the Atlantic Ocean directly across to the Pacific Ocean."
+          "canal": "In Central America, linking the Atlantic and Pacific Oceans."
         },
         "dead": {
           "sea": "Bordered by Jordan to the east and the West Bank and Israel to the west."
+        },
+        "bermuda": {
+          "triangle": "A loosely defined area in the western North Atlantic between Miami, Bermuda, and Puerto Rico."
+        },
+        "silicon": {
+          "valley": "In the southern San Francisco Bay Area of California, USA — the global hub of the tech industry."
+        },
+        "angkor": {
+          "wat": "In Siem Reap Province, Cambodia — the world's largest religious structure."
+        },
+        "petra": "In southwestern Jordan, carved into pink sandstone cliffs.",
+        "mount": {
+          "rushmore": "In the Black Hills of South Dakota, USA."
         }
       }
     },
@@ -651,12 +987,12 @@
         "is": {
           "the": {
             "red": {
-              "planet": "Mars, taking its reddish color from widespread iron oxide (rust) on its surface."
+              "planet": "Mars — its reddish color comes from iron oxide (rust) on its surface."
             },
-            "hottest": "Venus, holding extreme surface heat due to an intense carbon dioxide atmosphere.",
-            "coldest": "It depends on the definition: Neptune has a lower mean temperature in NASA’s planetary comparison, while Uranus has recorded some of the lowest atmospheric temperatures. Use the temperature measure when making a precise comparison.",
-            "largest": "Jupiter, containing more volume than all other planets combined.",
-            "smallest": "Mercury, the tiny rocky world closest to the Sun."
+            "hottest": "Venus, due to its intense carbon dioxide greenhouse effect (~465°C surface temp).",
+            "coldest": "It depends on the measure: Neptune has a lower mean temperature, while Uranus has recorded some of the coldest atmospheric readings.",
+            "largest": "Jupiter — it contains more volume than all other planets combined.",
+            "smallest": "Mercury, the rocky world closest to the Sun."
           }
         }
       },
@@ -664,13 +1000,13 @@
         "has": {
           "the": {
             "most": {
-              "islands": "Sweden is often reported to have roughly 267,000 islands, but international rankings depend on how an island is defined and the minimum size counted.",
-              "lakes": "Canada is generally considered to have more lakes than any other country, but exact counts and claims about its share of the world’s lakes depend on minimum-size thresholds and definitions.",
+              "islands": "Sweden is often reported to have roughly 267,000 islands, though rankings depend on how an island is defined.",
+              "lakes": "Canada is generally considered to have more lakes than any other country.",
               "pyramids": "Sudan, with over 200 ancient Nubian pyramids.",
-              "volcanoes": "Indonesia is often cited as having the world’s most historically active volcanoes. Rankings for total volcanoes vary depending on whether extinct, submarine, or potentially active volcanoes are included.",
-              "people": "India has the world’s largest national population according to current international estimates; exact population totals are estimates rather than exact counts.",
+              "volcanoes": "Indonesia is often cited as having the most historically active volcanoes.",
+              "people": "India has the world's largest national population.",
               "time": {
-                "zones": "France is often listed as spanning 12 time zones when its overseas territories are included. Counts vary with counting conventions and daylight-saving rules."
+                "zones": "France spans about 12 time zones when its overseas territories are included."
               }
             }
           }
@@ -679,10 +1015,10 @@
       "continent": {
         "is": {
           "the": {
-            "smallest": "Australia is commonly considered the smallest continent; continent classifications vary by educational and geographic convention.",
-            "driest": "Antarctica is the driest continent by precipitation and is classified as a polar desert.",
-            "hottest": "Africa is commonly described as the hottest continent by average temperature, but rankings depend on the period, dataset, and temperature metric used.",
-            "coldest": "Antarctica is the coldest continent; the lowest directly measured air temperature on Earth was about −89.2°C at Vostok Station.",
+            "smallest": "Australia is commonly considered the smallest continent.",
+            "driest": "Antarctica is the driest continent by precipitation — it is a polar desert.",
+            "hottest": "Africa is commonly described as the hottest continent by average temperature.",
+            "coldest": "Antarctica — the lowest measured air temperature was about −89.2°C at Vostok Station.",
             "largest": "Asia, holding both the largest surface area and the biggest population."
           }
         }
@@ -690,14 +1026,26 @@
       "gas": {
         "is": {
           "most": {
-            "abundant": "Nitrogen makes up about 78% of Earth’s dry atmosphere by volume; water vapour varies and is usually reported separately."
+            "abundant": "Nitrogen makes up about 78% of Earth's dry atmosphere by volume."
           }
         }
       },
       "brands": {
         "belong": {
           "to": {
-            "vw": "Volkswagen Group’s portfolio includes Volkswagen Passenger Cars, Volkswagen Commercial Vehicles, Škoda, SEAT/CUPRA, Audi, Bentley, Lamborghini, Ducati, Porsche, and truck brands such as MAN, Scania, and International. Exact brand-group listings can change; consult the Group’s current brand page for the latest corporate list."
+            "vw": "Volkswagen Group includes VW, Audi, Porsche, Bentley, Lamborghini, Ducati, Škoda, SEAT/CUPRA, MAN, Scania, and more."
+          }
+        }
+      },
+      "f1": {
+        "team": {
+          "has": {
+            "the": {
+              "most": {
+                "wins": "Ferrari holds the record for the most Formula 1 Constructors' race wins.",
+                "championships": "Ferrari also holds the most Constructors' Championships in F1 history."
+              }
+            }
           }
         }
       }
@@ -706,35 +1054,41 @@
       "to": {
         "build": {
           "pc": [
-            "Follow the manuals: prepare an appropriate anti-static work area, install the CPU and RAM as directed, fit the cooler, mount the motherboard and PSU, connect power and storage, then install the GPU if needed.",
-            "Check motherboard and case compatibility, cooler clearance, power requirements, and connector placement before assembly; use the component manufacturers’ instructions."
+            "Follow the manuals: prepare an anti-static workspace, install CPU and RAM, fit the cooler, mount the motherboard and PSU, connect storage, then install the GPU.",
+            "Check motherboard/case compatibility, cooler clearance, power requirements, and connector placement before assembly."
           ]
         },
         "make": {
           "chai": [
-            "Boil crushed ginger and cardamom in water, toss in black tea leaves, add milk, and boil twice before straining.",
-            "Infuse crushed spices in boiling water, add strong tea granules, pour whole milk, and let it simmer until rich amber."
+            "Boil crushed ginger and cardamom in water, add black tea leaves, add milk, and boil twice before straining.",
+            "Infuse crushed spices in boiling water, add strong tea granules, pour whole milk, and simmer until rich amber."
           ],
-          "maggi": "Prepare the noodles according to the packet directions, adjusting the water and cooking time to the product and your preference.",
-          "coffee": "Brew ground coffee beans with hot water through a filter, or dissolve instant coffee into hot water or warm milk.",
+          "maggi": "Prepare the noodles according to the packet directions, adjusting the water and cooking time to your preference.",
+          "coffee": [
+            "Brew ground coffee beans with hot water through a filter, or dissolve instant coffee into hot water or warm milk.",
+            "For espresso, force hot water through finely ground coffee at high pressure."
+          ],
           "scrambled": {
             "eggs": "Whisk eggs with a pinch of salt, melt butter in a warm pan, pour in eggs, and stir gently on low heat until soft curds form."
-          }
+          },
+          "rice": "Rinse rice, add water (usually 1:1.5 to 1:2 ratio for white rice), bring to a boil, reduce to low heat, cover, and cook for 15–20 minutes.",
+          "pasta": "Boil salted water, add pasta, cook until al dente per package directions, then drain. Reserve some pasta water for sauce."
         },
         "reduce": {
           "lap": {
-            "time": "In a simulator or supervised motorsport setting, lap time depends on consistent braking points, corner approach, line choice, and smooth acceleration; use qualified coaching and track-specific guidance rather than applying racing techniques on public roads."
+            "time": "Focus on consistent braking points, smooth corner approach, optimal racing line, and controlled acceleration. Get qualified coaching for track-specific guidance."
           }
         },
         "apply": {
           "thermal": {
-            "paste": "Follow the CPU and cooler manufacturers’ instructions. For many standard desktop CPUs, a small pea-sized dot in the centre is a common method, but the recommended pattern can vary by processor and cooler."
+            "paste": "Follow manufacturer instructions. For most desktop CPUs, a small pea-sized dot in the centre works well; recommended patterns vary by processor and cooler."
           }
         },
         "study": {
           "better": [
             "Use the Pomodoro technique: study for 25 minutes without distractions, then take a short 5-minute break.",
-            "Practice active recall by testing yourself on concepts rather than just reading notes passively."
+            "Practice active recall by testing yourself on concepts rather than just reading notes passively.",
+            "Space out your study sessions over time instead of cramming — spaced repetition significantly improves retention."
           ]
         },
         "sleep": {
@@ -742,32 +1096,52 @@
             "Keep your bedroom dark and cool, put your phone away an hour before bed, and stick to a regular wake-up schedule.",
             "Avoid heavy meals and caffeine late in the evening and keep a consistent sleeping routine."
           ]
+        },
+        "learn": {
+          "programming": [
+            "Start with a beginner-friendly language like Python, follow a structured course or tutorial, and build small projects to practice.",
+            "Pick one language and stick with it until you understand variables, loops, functions, and data structures before branching out."
+          ]
         }
       },
       "does": {
         "an": {
           "airplane": {
-            "fly": "An airplane’s wings create a pressure distribution and deflect air downward, producing lift; the amount of lift depends on airspeed, wing shape, angle of attack, and air density."
+            "fly": "Wings create a pressure distribution and deflect air downward, producing lift. The amount depends on airspeed, wing shape, angle of attack, and air density."
           }
         },
         "the": {
           "internet": {
-            "work": "The Internet is a network of interconnected networks. Data is split into packets that travel through routers over fibre-optic cables (including undersea cables), terrestrial links, wireless links, and sometimes satellites, using shared protocols such as IP."
+            "work": "Data is split into packets that travel through routers over fibre-optic cables, wireless links, and satellites, using shared protocols such as IP."
           }
         },
         "a": {
           "volcano": {
-            "erupt": "A volcano erupts when rising magma and expanding gases drive material through weaknesses in Earth’s crust; the style and force of an eruption depend on magma composition, viscosity, and gas content."
+            "erupt": "Rising magma and expanding gases drive material through weaknesses in Earth's crust. Eruption style depends on magma composition and gas content."
           },
           "rainbow": {
-            "form": "Sunlight enters falling raindrops, slowing down and bending (refracting), reflecting off the inside of the drop, and separating into colors."
+            "form": "Sunlight enters falling raindrops, slows down and bends (refracts), reflects off the inside, and separates into colors."
+          },
+          "car": {
+            "engine": {
+              "work": "In an internal combustion engine: intake sucks in fuel-air mix, compression squeezes it, combustion ignites it to push the piston, exhaust expels the gases. This four-stroke cycle repeats thousands of times per minute."
+            }
           }
+        },
+        "dqm": {
+          "work": [
+            "DQM splits your query into words and walks a nested dictionary tree, word by word, until it hits a leaf node with the answer.",
+            "It's pure tree traversal — no AI, no generation. The answer quality depends entirely on the stored data and how well your query matches a path."
+          ]
+        },
+        "gravity": {
+          "work": "Gravity attracts objects with mass toward each other. Newton described it as a force proportional to mass; Einstein described it as the curvature of spacetime caused by mass and energy."
         }
       },
       "many": {
         "continents": {
           "are": {
-            "there": "Seven: Asia, Africa, North America, South America, Antarctica, Europe, and Australia."
+            "there": "Seven: Asia, Africa, North America, South America, Antarctica, Europe, and Australia/Oceania."
           }
         },
         "oceans": {
@@ -777,7 +1151,7 @@
         },
         "planets": {
           "are": {
-            "there": "Eight recognized planets in our solar system: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune."
+            "there": "Eight recognized planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune."
           }
         },
         "drivers": {
@@ -806,7 +1180,7 @@
           "does": {
             "an": {
               "adult": {
-                "have": "A full set of adult teeth typically includes 32 teeth, including the four wisdom teeth."
+                "have": "A full set of adult teeth typically includes 32, including 4 wisdom teeth."
               }
             }
           }
@@ -815,6 +1189,7 @@
           "are": {
             "in": {
               "a": {
+                "year": "365 days in a regular year; 366 in a leap year.",
                 "leap": {
                   "year": "366 days, with an extra day added to February."
                 }
@@ -826,9 +1201,53 @@
           "are": {
             "in": {
               "an": {
-                "hour": "3,600 seconds (60 seconds per minute multiplied by 60 minutes)."
+                "hour": "3,600 seconds (60 × 60)."
+              },
+              "a": {
+                "day": "86,400 seconds (60 × 60 × 24)."
               }
             }
+          }
+        },
+        "elements": {
+          "are": {
+            "there": "118 confirmed elements on the periodic table."
+          }
+        },
+        "f1": {
+          "teams": {
+            "are": {
+              "there": "11 teams on the 2026 Formula 1 grid: Mercedes, Red Bull, Ferrari, McLaren, Aston Martin, Williams, Haas, Alpine, Audi, Racing Bulls, and Cadillac."
+            }
+          }
+        }
+      },
+      "fast": {
+        "is": {
+          "the": {
+            "speed": {
+              "of": {
+                "light": "About 299,792 km/s (roughly 300,000 km/s) in a vacuum.",
+                "sound": "About 343 m/s (1,235 km/h) in dry air at 20°C."
+              }
+            }
+          }
+        }
+      },
+      "old": {
+        "is": {
+          "the": {
+            "earth": "About 4.54 billion years old, based on radiometric dating of meteorites and Earth rocks.",
+            "universe": "About 13.8 billion years old, based on cosmic microwave background observations.",
+            "sun": "About 4.6 billion years old — a middle-aged main-sequence star."
+          }
+        }
+      },
+      "far": {
+        "is": {
+          "the": {
+            "moon": "About 384,400 km from Earth on average (roughly 1.3 light-seconds).",
+            "sun": "About 150 million km from Earth on average (about 8 light-minutes)."
           }
         }
       }
@@ -840,53 +1259,155 @@
             "blue": "Air molecules scatter shorter blue wavelengths of sunlight more strongly than longer red wavelengths, so blue light reaches our eyes from many directions across the daytime sky."
           },
           "ocean": {
-            "salty": "Ocean salt comes mainly from minerals released as water weathers rocks on land and carries dissolved ions to the sea, along with contributions from seafloor hydrothermal systems and volcanic activity. Water evaporates but most dissolved salts remain, and salinity varies by place and conditions."
+            "salty": "Ocean salt comes mainly from minerals released as water weathers rocks on land and carries dissolved ions to the sea, plus contributions from seafloor hydrothermal systems."
           },
           "grass": {
-            "green": "Plant cells contain chlorophyll pigments that absorb red and blue light while bouncing green light back to our eyes."
+            "green": "Plant cells contain chlorophyll pigments that absorb red and blue light while reflecting green light back to our eyes."
           },
           "sun": {
-            "hot": "The Sun’s core is hot enough for nuclear fusion to combine hydrogen nuclei into helium, releasing energy. That energy gradually moves outward and eventually leaves the Sun as radiation, including visible light."
+            "hot": "The Sun's core is hot enough for nuclear fusion — hydrogen nuclei combine into helium, releasing enormous energy that eventually leaves as radiation."
           },
           "moon": {
-            "bright": "The Moon does not make its own light; it reflects sunlight off its dusty, cratered rock surface."
+            "bright": "The Moon doesn't make its own light — it reflects sunlight off its dusty, cratered surface."
           },
           "mars": {
-            "red": "Iron-bearing minerals in Martian dust and rocks have oxidized, producing iron oxides that give much of the surface its reddish colour."
+            "red": "Iron-bearing minerals in Martian dust and rocks have oxidized, producing iron oxides that give the surface its reddish colour."
+          },
+          "earth": {
+            "round": "Gravity pulls matter toward the center of mass, shaping large bodies like Earth into roughly spherical forms.",
+            "tilted": "Earth's axial tilt (~23.5°) is likely the result of ancient collisions during the solar system's formation. This tilt causes the seasons."
           }
         },
         "do": {
           "onions": {
             "make": {
               "us": {
-                "cry": "Cutting an onion causes chemical reactions that produce a volatile irritant; when it reaches the eyes, it activates sensory nerves and triggers tears."
+                "cry": "Cutting an onion releases a volatile compound that irritates the eyes, activating sensory nerves and triggering tears."
               }
             }
           },
           "boats": {
-            "float": "A floating boat displaces enough water for the buoyant force to balance the total weight of the boat and its load."
+            "float": "A floating boat displaces enough water for the buoyant force (Archimedes' principle) to balance the boat's total weight."
+          },
+          "stars": {
+            "twinkle": "Starlight passes through layers of moving atmosphere that bend and distort the light, making stars appear to flicker."
+          },
+          "leaves": {
+            "change": {
+              "color": "In autumn, trees stop producing chlorophyll, revealing yellow and orange pigments (carotenoids) that were already there, and sometimes producing red pigments (anthocyanins)."
+            }
+          },
+          "we": {
+            "dream": "The exact purpose of dreaming is still debated. Leading theories include memory consolidation, emotional processing, and neural housekeeping during sleep."
           }
         },
         "mercedes": {
-          "fast": "A Formula 1 team’s pace depends on the season’s regulations, car aerodynamics, power unit, tyre use, setup, strategy, drivers, and circuit. Mercedes’ relative pace changes from race to race; specific claims need current-season data."
+          "fast": "A Formula 1 team's pace depends on regulations, aerodynamics, power unit, tyres, setup, strategy, drivers, and circuit. Mercedes' relative pace changes from race to race."
         },
         "red": {
           "bull": {
-            "fast": "A Formula 1 team’s pace depends on aerodynamics, power unit, tyre use, setup, strategy, drivers, and circuit. Red Bull’s relative pace changes with the car and season; avoid treating any single design feature as the sole explanation."
+            "fast": "An F1 team's pace depends on aerodynamics, power unit, tyres, setup, strategy, drivers, and circuit. Red Bull's pace varies with the car and season."
           }
         },
         "dqm": {
           "fast": [
-            "A dictionary-based DQM lookup can be quick because it follows predefined paths instead of generating a response from scratch.",
-            "Performance depends on the implementation, data size, hardware, and query; claims such as sub-millisecond latency or zero errors need measurements and testing."
+            "A dictionary-based DQM lookup is quick because it follows predefined paths instead of generating a response from scratch.",
+            "Performance depends on the implementation, data size, hardware, and query."
           ]
+        }
+      }
+    },
+    "when": {
+      "was": {
+        "the": {
+          "internet": {
+            "invented": "The foundations were laid in the 1960s–70s with ARPANET and TCP/IP. Tim Berners-Lee invented the World Wide Web in 1989."
+          },
+          "first": {
+            "f1": {
+              "race": "The first official Formula 1 World Championship race was the 1950 British Grand Prix at Silverstone."
+            },
+            "moon": {
+              "landing": "Apollo 11 landed on the Moon on July 20, 1969. Neil Armstrong was the first person to walk on it."
+            },
+            "computer": {
+              "invented": "Early electronic computers like Colossus (1943) and ENIAC (1945) were among the first. The concept dates back to Babbage's Analytical Engine in the 1830s."
+            }
+          },
+          "eiffel": {
+            "tower": {
+              "built": "Constructed for the 1889 World's Fair in Paris, completed in about two years."
+            }
+          }
+        },
+        "dqm": {
+          "created": "DQM was created by Mohamed Tanzeem I (CyberDev) as a deterministic alternative to LLM-based query systems."
+        }
+      },
+      "is": {
+        "the": {
+          "next": {
+            "f1": {
+              "race": "Check the official Formula 1 calendar at formula1.com for the latest schedule — the calendar changes throughout the season."
+            },
+            "leap": {
+              "year": "Leap years are divisible by 4, except century years which must be divisible by 400. The next leap year after 2024 is 2028."
+            }
+          }
+        }
+      }
+    },
+    "define": {
+      "entropy": "A measure of disorder or randomness in a system. In thermodynamics, entropy tends to increase in isolated systems.",
+      "osmosis": "The movement of water molecules through a semipermeable membrane from an area of lower solute concentration to higher solute concentration.",
+      "symbiosis": "A close, long-term biological interaction between two different organisms. Types include mutualism, commensalism, and parasitism.",
+      "democracy": "A system of government in which power is held by the people, typically through elected representatives.",
+      "algorithm": "A step-by-step set of instructions or rules for solving a problem or performing a computation.",
+      "ecosystem": "A community of living organisms interacting with each other and their physical environment as a system.",
+      "hypothesis": "A proposed explanation for a phenomenon, made as a starting point for investigation and testing.",
+      "velocity": "The rate of change of an object's position with respect to time, including both speed and direction.",
+      "momentum": "The product of an object's mass and velocity. A measure of how much force is needed to stop a moving object.",
+      "density": "Mass per unit volume of a substance. Objects denser than a fluid will sink in it.",
+      "alloy": "A mixture of metals, or a metal mixed with other elements, designed to have specific properties like strength or corrosion resistance.",
+      "isotope": "Atoms of the same element with different numbers of neutrons. Carbon-12 and Carbon-14 are isotopes of carbon.",
+      "catalyst": "A substance that speeds up a chemical reaction without being consumed in the process."
+    },
+    "convert": {
+      "celsius": {
+        "to": {
+          "fahrenheit": "Multiply the Celsius temperature by 9/5, then add 32. Formula: °F = (°C × 9/5) + 32."
+        }
+      },
+      "fahrenheit": {
+        "to": {
+          "celsius": "Subtract 32 from the Fahrenheit temperature, then multiply by 5/9. Formula: °C = (°F − 32) × 5/9."
+        }
+      },
+      "km": {
+        "to": {
+          "miles": "Multiply kilometers by 0.621371. Example: 100 km ≈ 62.14 miles."
+        }
+      },
+      "miles": {
+        "to": {
+          "km": "Multiply miles by 1.60934. Example: 100 miles ≈ 160.93 km."
+        }
+      },
+      "kg": {
+        "to": {
+          "pounds": "Multiply kilograms by 2.20462. Example: 100 kg ≈ 220.46 lbs."
+        }
+      },
+      "pounds": {
+        "to": {
+          "kg": "Multiply pounds by 0.453592. Example: 100 lbs ≈ 45.36 kg."
         }
       }
     },
     "box": {
       "box": [
         "Box, box — pit this lap for the planned tyre change.",
-        "Pit entry is available; follow the team’s instructions and the marked pit-entry line.",
+        "Pit entry is available; follow the team's instructions and the marked pit-entry line.",
         "Box, box, box — pit this lap for the selected tyres."
       ]
     },
@@ -899,40 +1420,40 @@
     },
     "mode": {
       "push": [
-        "Push mode requested. Electrical deployment depends on the car’s energy state, settings, and the series rules.",
-        "Mode push requested; use the permitted deployment strategy and monitor energy availability."
+        "Push mode requested. Electrical deployment depends on energy state, settings, and series rules.",
+        "Mode push requested — use the permitted deployment strategy and monitor energy availability."
       ]
     },
     "safety": {
       "car": [
-        "Safety car deployed. Slow down, do not overtake unless the rules explicitly permit it, and maintain the required gap to the car ahead.",
-        "Safety car on track. Follow the safety-car procedure and race-control instructions; do not treat this as normal green-flag racing."
+        "Safety car deployed. Slow down, do not overtake unless rules permit, and maintain the required gap.",
+        "Safety car on track. Follow the procedure and race-control instructions."
       ]
     },
     "virtual": {
       "safety": {
-        "car": "Virtual Safety Car active. Reduce speed and remain within the required delta; overtaking is prohibited except where the rules explicitly allow it."
+        "car": "Virtual Safety Car active. Reduce speed within the required delta; overtaking is prohibited except where rules allow."
       }
     },
     "yellow": {
-      "flag": "Yellow flag: reduce speed, do not overtake, and be prepared to change direction or stop. Double yellow flags signal greater danger and require a further reduction in speed."
+      "flag": "Yellow flag: reduce speed, do not overtake, and be prepared to change direction. Double yellows signal greater danger."
     },
     "green": {
-      "flag": "Green flag: the track is clear at this point and normal racing may resume when permitted by race control and the applicable procedure."
+      "flag": "Green flag: track is clear at this point and normal racing may resume."
     },
     "red": {
-      "flag": "Red flag: the session has been suspended. Slow down, do not overtake, and follow the race director’s instructions about whether to return to the pit lane or stop elsewhere."
+      "flag": "Red flag: session suspended. Slow down, do not overtake, and follow the race director's instructions."
     },
     "pit": {
-      "confirm": "Pit stop confirmed. The crew is preparing the selected tyres and service; the actual tyre choice depends on the team’s plan."
+      "confirm": "Pit stop confirmed. The crew is preparing the selected tyres."
     },
     "status": [
       "Knowledge base loaded. DQM lookup engine is ready.",
-      "Engine ready. Answers are retrieved from configured routes; accuracy depends on the stored data and query matching."
+      "Engine ready. Answers are retrieved from configured routes."
     ],
     "help": [
-      "Ask questions such as 'what is [topic]', 'the capital of [country]', or 'who won the F1 Drivers’ Championship in [year]'; you can also try commands like 'box box'.",
-      "Look up PC hardware, Formula 1 terminology and history, geography, and general science using clear word queries. Responses are limited to the information stored in the knowledge base."
+      "Try queries like 'what is [topic]', 'who is [name]', 'where is [place]', 'how does [thing] work', or 'define [word]'. Also works: 'convert celsius to fahrenheit', 'box box', 'radio check'.",
+      "Covers tech, F1, geography, science, and general knowledge. Type 'exit' to quit or 'cls' to clear."
     ],
     "hi": [
       "Hey! System running. What are we checking today?",
@@ -951,6 +1472,22 @@
     "ping": [
       "pong!",
       "pong! (latency not measured)"
-    ]
+    ],
+    "thanks": [
+      "No problem! Got more questions?",
+      "Anytime! What else do you want to know?"
+    ],
+    "thank": {
+      "you": [
+        "You're welcome! What else can I look up?",
+        "Happy to help! Hit me with another query."
+      ]
+    },
+    "goodbye": [
+      "See ya! Type 'quit' to close DQM.",
+      "Later! Come back anytime. Type 'quit' to close DQM."
+    ],
+    "credits": "DQM was built by Mohamed Tanzeem I (CyberDev). Licensed under CC BY-NC-SA 4.0.",
+    "version": "DQM v2.0.0 — Deterministic Query Model."
   }
 }
