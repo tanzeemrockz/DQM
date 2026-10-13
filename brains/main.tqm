@@ -1,7 +1,11 @@
 {
-  "brain_id": "default_core_v2.0.0",
-  "version": "2.0.0",
+  "brain_id": "default_core",
+  "version": "1.0.6",
   "author": "Mohamed Tanzeem I (CyberDev)",
+  "info": "General knowledge, F1, hardware, Hackintosh, Geography, and conversational routes",
+  "description": "Default brain for DQM built by CyberDev (v1.0.6). Contains general knowledge, F1, hardware, Hackintosh, Geography, and conversational routes",
+  "licence": "CC-BY-NC-SA-4.0",
+  "compatibility": ">=2.1.0",
   "routes": {
     "what": {
       "is": {
@@ -1460,6 +1464,7 @@
       "Yo! DQM is loaded and running in memory.",
       "Online! Ready to look up F1 stats, geography, or PC hardware."
     ],
+    "description": "Default brain for DQM built by CyberDev (v1.0.6). Contains general knowledge, F1, hardware, Hackintosh, Geography, and conversational routes",
     "hello": [
       "Hey there! Ready on channel.",
       "Yo! What are we looking up?",
@@ -1488,6 +1493,6 @@
       "Later! Come back anytime. Type 'quit' to close DQM."
     ],
     "credits": "DQM was built by Mohamed Tanzeem I (CyberDev). Licensed under CC BY-NC-SA 4.0.",
-    "version": "DQM v2.0.0 — Deterministic Query Model."
+    "version": "DQM v2.1.0, Brain v1.0.6 — Deterministic Query Model."
   }
 }
