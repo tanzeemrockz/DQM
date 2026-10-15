@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DQM - Deterministic Query Model.">
+  <title>DQM - Deterministic Query Model</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:opsz,wght@17..18,400..700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: { 
+            customGreen: '#27F5BB', 
+            customBlue: '#274DF5',
+            whiteEh: '#AAAAAA',
+            blackEh: '#000000',
+            customOrange: '#F56827',
+            customYellow: '#F5CF27' 
+          },
+          fontFamily: {
+            google: ['"Google Sans"', 'sans-serif'],
+            mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace']
+          }   
+        }
+      }
+    };
+  </script>
+  <style>
+    body {
+      background-color: #050505;
+      background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+      background-size: 28px 28px;
+      background-attachment: fixed;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    ::selection {
+      background: #60a5fa;
+      color: black;
+    }
+
+    .fade-in {
+      animation: fadeIn 0.5s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(8px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body class="bg-black text-white font-google min-h-screen flex flex-col justify-between">
+    <header class="bg-customBlue/90 backdrop-blur-md py-4 px-6 sticky top-0 z-50 border-b border-white/10 shadow-lg">
+    <div class="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+      <a href="#hero" class="font-bold text-2xl text-white tracking-tight hover:opacity-90 transition">
+        DQM
+      </a>
+      <nav aria-label="Main Navigation">
+        <ul class="flex flex-wrap items-center justify-center gap-1.5 sm:gap-2">
+          <li>
+            <a href="#about" class="px-3.5 py-1.5 rounded-lg text-sm font-semibold text-white/90 hover:text-black hover:bg-customGreen transition-all duration-200">About</a>
+          </li>
+          <li>
+            <a href="#v210" class="px-3.5 py-1.5 rounded-lg text-sm font-semibold text-white/90 hover:text-black hover:bg-customGreen transition-all duration-200">v2.1.0</a>
+          </li>
+          <li>
+            <a href="#brains" class="px-3.5 py-1.5 rounded-lg text-sm font-semibold text-white/90 hover:text-black hover:bg-customGreen transition-all duration-200">Brains</a>
+          </li>
+          <li>
+            <a href="#usage" class="px-3.5 py-1.5 rounded-lg text-sm font-semibold text-white/90 hover:text-black hover:bg-customGreen transition-all duration-200">Usage</a>
+          </li>
+          <li>
+            <a href="#contact" class="px-3.5 py-1.5 rounded-lg text-sm font-semibold text-white/90 hover:text-black hover:bg-customGreen transition-all duration-200">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="max-w-4xl mx-auto p-6 w-full">
+    <section id="hero" class="relative overflow-hidden rounded-3xl my-8 bg-zinc-950 border border-white/10 shadow-xl">
+      <div class="absolute inset-0 -z-10 bg-gradient-to-r from-customBlue/25 via-black/80 to-customOrange/20"></div>
+      <div class="relative p-8 sm:p-12 flex flex-col items-start gap-4 max-w-2xl">
+        <span class="text-xs font-bold tracking-wider px-3 py-1 bg-black/50 border border-white/10 rounded-full text-customGreen">
+          Deterministic Query Model
+        </span>
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-white leading-tight">
+          Deterministic answers,<br>Zero hallucinations.
+        </h1>
+        <p class="text-zinc-300 text-base sm:text-lg leading-relaxed">
+          A lightweight, sub-millisecond query engine built with nested dictionary Trie paths. Offline, fast, and driven by modular <code class="font-mono text-customYellow">.tqm</code> brains.
+        </p>
+        <div class="flex flex-wrap gap-4 mt-2">
+          <a href="https://github.com/tanzeemrockz/DQM" target="_blank" rel="noopener noreferrer" class="px-6 py-3 font-bold rounded-xl transition bg-customGreen text-black hover:bg-white hover:text-customOrange">
+            View on GitHub
+          </a>
+          <a href="#usage" class="px-6 py-3 font-bold rounded-xl transition border border-white/40 text-white hover:bg-white/10">
+            Quick Start
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="bg-customOrange text-black p-8 rounded-2xl my-8 shadow-md">
+      <h2 class="text-4xl font-bold mb-3">About DQM</h2>
+      <p class="leading-relaxed font-bold text-lg">
+        DQM walks direct word branches in stored knowledge trees instead of guessing tokens with heavy models.
+      </p>
+      <p class="mt-2 text-black/85 font-semibold leading-relaxed">
+        If a path exists, you get the exact answer in microseconds. If it does not, you get a clean path notice. Simple, offline, and predictable.
+      </p>
+    </section>
+    <h1 class="text-white font-extrabold my-4 text-center sm:text-left text-xl tracking-tight">
+      clean logic &bull; modular brains &bull; zero bloat
+    </h1>
+    <section id="v210" class="bg-customYellow text-black p-8 rounded-2xl my-8 shadow-md">
+      <h2 class="text-4xl font-bold mb-3">What's New in v2.1.0</h2>
+      <p class="leading-relaxed font-bold mb-4">
+        The latest release introduces modular architecture and standard verification:
+      </p>
+      <ul class="space-y-2.5 font-bold text-base">
+        <li class="flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-black"></span>
+          <span><b>External Brains:</b> Drop any <code class="font-mono text-sm bg-black/10 px-1.5 py-0.5 rounded">.tqm</code> file into <code class="font-mono text-sm bg-black/10 px-1.5 py-0.5 rounded">brains/</code> to load it.</span>
+        </li>
+        <li class="flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-black"></span>
+          <span><b>Brain Selector:</b> Interactive startup menu scans and lets you pick your brain.</span>
+        </li>
+        <li class="flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-black"></span>
+          <span><b>Engine Compatibility:</b> Verifies version requirements so older engines don't break.</span>
+        </li>
+        <li class="flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-black"></span>
+          <span><b>Standard Metadata:</b> Standardized fields for <code class="font-mono text-sm bg-black/10 px-1.5 py-0.5 rounded">brain_id</code>, author, license, and routes.</span>
+        </li>
+        <li class="flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-black"></span>
+          <span><b>Normalizer Polish:</b> Extended aliases, contraction expansion, and bug fixes.</span>
+        </li>
+      </ul>
+    </section>
+    <section id="brains" class="bg-customGreen text-black p-8 rounded-2xl my-8 shadow-md">
+      <h2 class="text-4xl font-bold mb-6">Brain Library</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <article class="bg-black/10 p-6 rounded-2xl flex flex-col justify-between border border-black/10 transition-all duration-200 hover:-translate-y-1">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <h3 class="font-bold text-2xl text-black">Default Core</h3>
+              <span class="text-xs uppercase font-bold tracking-wider px-2.5 py-1 bg-black text-customYellow rounded-full font-mono">
+                v1.0.6
+              </span>
+            </div>
+            <p class="text-sm text-black/80 mb-4 leading-relaxed font-semibold">
+              The standard brain. Includes F1 lore, hardware, tech terms, Hackintosh notes, geography, and general knowledge.
+            </p>
+            <ul class="flex flex-wrap gap-2 mb-4 font-mono text-xs font-bold">
+              <li class="px-2 py-1 bg-black/15 rounded-md">CyberDev</li>
+              <li class="px-2 py-1 bg-black/15 rounded-md">&gt;=2.1.0</li>
+              <li class="px-2 py-1 bg-black/15 rounded-md">Core</li>
+            </ul>
+          </div>
+          <span class="text-xs font-mono font-bold text-black/70">CC-BY-NC-SA-4.0</span>
+        </article>
+        <article class="bg-black/10 p-6 rounded-2xl flex flex-col justify-between border border-black/10 transition-all duration-200 hover:-translate-y-1">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <h3 class="font-bold text-2xl text-black">F1 Lore</h3>
+              <span class="text-xs uppercase font-bold tracking-wider px-2.5 py-1 bg-black text-customGreen rounded-full font-mono">
+                v1.0.0
+              </span>
+            </div>
+            <p class="text-sm text-black/80 mb-4 leading-relaxed font-semibold">
+              Dedicated motorsport brain covering 2026 regulations, driver lineups, circuits, and team principals.
+            </p>
+            <ul class="flex flex-wrap gap-2 mb-4 font-mono text-xs font-bold">
+              <li class="px-2 py-1 bg-black/15 rounded-md">CyberDev</li>
+              <li class="px-2 py-1 bg-black/15 rounded-md">&gt;=2.1.0</li>
+              <li class="px-2 py-1 bg-black/15 rounded-md">Racing</li>
+            </ul>
+          </div>
+          <span class="text-xs font-mono font-bold text-black/70">CC-BY-NC-SA-4.0</span>
+        </article>
+        <article class="bg-black/10 p-6 rounded-2xl flex flex-col justify-between border border-black/10 transition-all duration-200 hover:-translate-y-1">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <h3 class="font-bold text-2xl text-black">PC Hardware</h3>
+              <span class="text-xs uppercase font-bold tracking-wider px-2.5 py-1 bg-black text-customOrange rounded-full font-mono">
+                v1.0.0
+              </span>
+            </div>
+            <p class="text-sm text-black/80 mb-4 leading-relaxed font-semibold">
+              In-depth computer hardware data, overclocking basics, storage specs, and system architectures.
+            </p>
+            <ul class="flex flex-wrap gap-2 mb-4 font-mono text-xs font-bold">
+              <li class="px-2 py-1 bg-black/15 rounded-md">Community</li>
+              <li class="px-2 py-1 bg-black/15 rounded-md">&gt;=2.1.0</li>
+              <li class="px-2 py-1 bg-black/15 rounded-md">Tech</li>
+            </ul>
+          </div>
+          <span class="text-xs font-mono font-bold text-black/70">CC-BY-NC-SA-4.0</span>
+        </article>
+        <article class="bg-black/5 p-6 rounded-2xl flex flex-col justify-between border border-dashed border-black/20">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <h3 class="font-bold text-2xl text-black/70">Community Brains</h3>
+              <span class="text-xs uppercase font-bold tracking-wider px-2.5 py-1 bg-black/20 text-black rounded-full font-mono">
+                Create
+              </span>
+            </div>
+            <p class="text-sm text-black/70 mb-4 leading-relaxed font-semibold">
+              Build your own topic pack. Retain <code class="font-mono bg-black/10 px-1 rounded text-xs">CC-BY-NC-SA-4.0</code> in the metadata and submit a PR.
+            </p>
+          </div>
+          <a href="https://github.com/tanzeemrockz/DQM" target="_blank" rel="noopener noreferrer" class="font-bold text-sm text-black hover:text-customBlue transition">
+            View Brain Template &rarr;
+          </a>
+        </article>
+      </div>
+    </section>
+    <section id="usage" class="bg-zinc-950 text-white p-8 rounded-2xl my-8 border border-white/10 shadow-md">
+      <h2 class="text-4xl font-bold mb-3 tracking-tight">Quick Start</h2>
+      <p class="font-semibold text-zinc-400 mb-6">Run DQM locally in three simple steps:</p>
+      <div class="space-y-3 font-mono text-sm">
+        <div class="bg-black p-4 rounded-xl border border-white/10 flex items-center justify-between">
+          <span><span class="text-customGreen font-bold">$</span> git clone https://github.com/tanzeemrockz/DQM.git</span>
+          <span class="text-xs text-zinc-500 font-sans font-bold">1</span>
+        </div>
+        <div class="bg-black p-4 rounded-xl border border-white/10 flex items-center justify-between">
+          <span><span class="text-customGreen font-bold">$</span> cd DQM</span>
+          <span class="text-xs text-zinc-500 font-sans font-bold">2</span>
+        </div>
+        <div class="bg-black p-4 rounded-xl border border-white/10 flex items-center justify-between">
+          <span><span class="text-customGreen font-bold">$</span> python main.py</span>
+          <span class="text-xs text-zinc-500 font-sans font-bold">3</span>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="bg-customOrange text-black p-8 rounded-2xl my-8 shadow-md">
+      <h2 class="text-4xl font-bold mb-3">License & Contact</h2>
+      <p class="leading-relaxed font-bold mb-4">
+        DQM brains are licensed under <b>CC-BY-NC-SA-4.0</b> (Attribution-NonCommercial-ShareAlike).
+      </p>
+      <ul class="space-y-2 font-semibold text-sm">
+        <li>
+          <b>Creator:</b> Mohamed Tanzeem I (CyberDev)
+        </li>
+        <li>
+          <b>Email:</b>
+          <a href="mailto:tanzeemrockz@cyberslayercorpz.dev" class="hover:text-customYellow transition font-mono"><code>tanzeemrockz@cyberslayercorpz.dev</code></a>,
+          <a href="mailto:imohamedtanzeem@gmail.com" class="hover:text-customYellow transition font-mono"><code>imohamedtanzeem@gmail.com</code></a>
+        </li>
+        <li>
+          <b>Operator:</b> <a href="https://cyberslayercorpz.dev" target="_blank" class="hover:text-customYellow underline">cyberslayercorpz.dev</a>
+        </li>
+        <li>
+          <b>Matrix.Org:</b> <code class="font-mono">@tanzeemrockz:matrix.org</code>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="bg-zinc-900 border-t border-zinc-800 py-6 text-center text-sm text-zinc-400">
+    <p>&copy; 2026 DQM. Made with ❤️ by <span class="font-bold text-white">tanzeemrockz</span> | 
+      Operator: <a href="https://www.cyberslayercorpz.dev/" target="_blank" class="text-white hover:text-customOrange underline-offset-2 transition">CyberSlayerCorpz</a>
+    </p>
+  </footer>
+
+</body>
+</html>
